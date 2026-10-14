@@ -1,0 +1,1 @@
+Screenshots of the live PE Dashboard (alert management, configuration, health check, overview KPIs, trends, value capture, workflow, user statistics) — reference for layout and density, not for reuse in new UI. They carry a user watermark and sample names. no_image_icon.png is the empty-image placeholder used in the product.

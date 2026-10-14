@@ -1,0 +1,57 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PE Dashboard</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--primary_white); color:var(--primary_gray); overflow:hidden; }
+  .cover { position:relative; width:960px; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .blue { fill:var(--primary_blue); }
+  .navy { fill:var(--primary_dark_blue); }
+  .yellow { fill:var(--primary_yellow); }
+  .tint { fill:var(--primary_blue_bg); }
+  .orange { fill:var(--primary_orange); }
+  .blk { rx:var(--radius-control); }
+  .tab-on { fill:var(--primary_blue); }
+  .tab-off { fill:var(--primary_blue_bg); stroke:var(--primary_gray_4); stroke-width:1; }
+  .tab-cut { fill:var(--primary_white); }
+  .words { position:absolute; left:var(--space-3); bottom:var(--space-3); max-width:440px; }
+  .name { margin:0; font-family:'sabic_headline_bold', serif; font-weight:400; font-size:80px; line-height:.95; color:var(--primary_gray); }
+  .tag { margin:var(--space-1) 0 0 2px; font-family:'sabic_text_regular', serif; font-size:14px; line-height:20px; color:var(--primary_gray); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      primary_blue 151×216 slab bled off the top (the brand, largest) · primary_dark_blue 130×173 panel · primary_yellow 134×108 bled off top-right · primary_blue_bg 134×108 tint bled right · primary_orange 43×11 once (alert only) — ≈40% of 960×288
+  arrangement one tall blue slab with a navy panel and two right-edge bands; bottoms align on one line space-5 above the edge, space-2 gutters
+  pattern     literal motif: the commonTriangleTabs trapezoid (2.5vmin slant, −1vmin overlap) — a row of tabs sitting on the navy panel, active one primary_blue, and two cut into the tint band — chosen because the trapezoid tab is the one shape only this product draws
+  scales      sides in space-1 (10.8px) multiples; gutters space-2; tab height space-3, slant space-2, overlap space-1; block corners radius-control
+-->
+<rect class="blue blk" x="21.6" y="-10.8" width="151.2" height="248.4"/>
+<rect class="orange blk" x="21.6" y="248.4" width="43.2" height="10.8"/>
+<rect class="navy blk" x="194.4" y="97.2" width="129.6" height="140.4"/>
+<rect class="yellow blk" x="345.6" y="-10.8" width="140" height="108"/>
+<rect class="tint blk" x="345.6" y="118.8" width="140" height="118.8"/>
+<!-- tabs on the navy panel -->
+<polygon class="tab-off" points="248.4,64.8 302.4,64.8 324,97.2 226.8,97.2"/>
+<polygon class="tab-off" points="183.6,64.8 237.6,64.8 259.2,97.2 162,97.2"/>
+<polygon class="tab-on"  points="216,64.8 270,64.8 291.6,97.2 194.4,97.2"/>
+<!-- tabs cut into the tint band -->
+<polygon class="tab-on"  points="388.8,151.2 442.8,151.2 464.4,183.6 367.2,183.6"/>
+<polygon class="tab-cut" points="378,205.2 432,205.2 453.6,237.6 356.4,237.6"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">PE<br>Dashboard</h1>
+<p class="tag">SABIC Plant Efficiency — one 16:9 screen, scaled in vmin.</p>
+</div>
+</div>
+</body>
+</html>

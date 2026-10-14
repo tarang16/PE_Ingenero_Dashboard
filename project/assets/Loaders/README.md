@@ -1,0 +1,1 @@
+Loading and attention indicators. The SVG loaders here are STATIC frames — the asset store strips SVG animation; the Loader component inlines the animated originals. download.gif is the download-in-progress animation; notification_red_bell_icon.gif and notification_yellow_bell_icon.gif are the animated alert bells (red = overdue, yellow = pending).

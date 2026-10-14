@@ -1,0 +1,696 @@
+/* PE Dashboard — generated from tokens.json */
+:root, [data-theme="light"] {
+  --primary_white: #ffffff; /* Card, panel, table-row, modal and sidebar surfaces; text on primary_blue / primary_orange / primary_gray_2 fills. */
+  --primary_gray: #4d4d4d; /* Default text colour (applied to * in typography.scss) on primary_white, primary_bg and primary_gray_bg (8.45:1 on white). Scrollbar thumb hover. */
+  --primary_gray_2: #939598; /* Secondary text, disabled/reset/inactive button fill, scrollbar thumb. Only 3.0:1 on white and white-on-it — below 4.5:1, so keep it for 18px+ or non-essential text (source value kept as-is). */
+  --primary_gray_3: #c6c8ca; /* Borders and dividers: inputs, textareas, checkboxes, react-select control, modal header rule, ag-Grid menus. */
+  --primary_gray_4: #e6e7e8; /* Light borders, table row borders, panel-card header rule, tab hover/active background, soft gray card shadow. */
+  --primary_gray_5: #eff0f1; /* Subtle backgrounds. */
+  --primary_gray_6: #f7f7f7; /* Subtle backgrounds. */
+  --primary_gray_7: #f6f6f6; /* Subtle backgrounds. */
+  --primary_gray_8: #8e8e93; /* Declared in _variables.scss; no documented usage. */
+  --primary_gray_bg: #f0f0f1; /* Page / app background behind cards. */
+  --primary_black: #000000; /* Maximum-contrast text; dark react-tooltip background (white text on it). */
+  --primary_bg: #fbfcfd; /* Near-white page background. */
+  --primary_bg_transperant: #333333; /* Declared as $primary_bg_transperant (#333; name spelled as in source); no documented usage. */
+  --primary_dark_blue: #041e41; /* Deep brand navy for header/footer brand moments; white on it is 16.57:1. */
+  --primary_blue: #009fdf; /* Primary action and brand colour: primary buttons, active nav/tab/page, links and breadcrumbs, checked checkboxes, focus borders, 'healthy' status. White text on it and it on white are 2.99:1 — passes only for 24px+/bold-19px text and UI marks (source value kept; buttons use 15px uppercase, a known shortfall). */
+  --primary_blue_bg: #eaf9ff; /* Primary-tinted background: table headers, sidebar nav items, header icon chips, inactive triangle tabs. primary_gray on it is 7.85:1. */
+  --primary_blue_hover: rgb(31, 184, 245); /* Hover fill for blue buttons and sidebar nav items (white text/icon on it). */
+  --header_gradient_start: #0047bb; /* Start of the header hairline gradient (#0047bb → primary_blue) in RootLayout.module.scss; also the SABIC logo blue. A literal in source, not a named variable. */
+  --primary_orange: #e45205; /* Alert / error / overdue accent: overdue chips, pending action chips, error toasts, status-alert. 3.81:1 on white — fine for 24px+ or bold labels, short of 4.5:1 for small text. */
+  --primary_orange_1: #e35205; /* Legacy near-duplicate of primary_orange; prefer primary_orange. */
+  --primary_yellow: #ffcd00; /* Caution / pending / new accent: chip borders, status-warning swatch, footer hairline, toggle handle (on). Never as text on light grounds (1.5:1 on white). */
+  --primary_light_yellow: #faf7b5; /* Light yellow background. */
+  --primary_yellow_bg: #fffddd; /* Yellow-tinted notice-banner background (primary_gray text on it). */
+  --primary_green: #07844e; /* Success / complete accent: completeBtn text, success toasts, status-ok. 4.75:1 on white. */
+  --primary_green_light: #e5ffe3; /* Success-tinted background. */
+  --secondary_green: #009640; /* Secondary success tone: success toast borders, completeBtn border. */
+  --secondary_green_Light: #edf8f4; /* Secondary success background behind completeBtn (name cased as in source). */
+  --primary_gray_12: rgba(85, 86, 90, 0.12); /* Neutral wash for hover states and chart fills. */
+  --primary_orange_60: rgba(228, 82, 5, 0.3); /* Orange tint behind pendingBtn and alert chart series. */
+  --primary_green_60: rgba(7, 132, 78, 0.3); /* Green tint for success chart series and chips. */
+  --primary_blue_20: rgba(50, 175, 226, 0.6); /* Strongest blue chart-series tint. */
+  --primary_blue_40: rgba(101, 195, 234, 0.6); /* Blue chart-series tint. */
+  --primary_blue_60: rgba(152, 215, 240, 0.6); /* Table row / cell highlight (.HighlightRow, .HighlightCell); light react-select option. */
+  --primary_blue_80: rgba(203, 234, 247, 0.6); /* Lightest blue tint: deviation-closed chip background, in-progress washes. */
+  --primary_yellow_10: rgba(253, 243, 203, 0.11); /* Faint yellow wash. */
+  --primary_yellow_20: rgba(253, 212, 50, 0.6); /* End of the footer hairline gradient (primary_yellow → primary_yellow_20); yellow chart series. */
+  --primary_yellow_40: rgba(252, 222, 101, 0.6); /* Yellow chart-series tint. */
+  --primary_yellow_60: rgba(253, 233, 152, 0.6); /* Yellow chart-series tint. */
+  --primary_yellow_80: rgba(253, 243, 203, 0.6); /* deviation-new / deviation-pending chip background (bordered and labelled in primary_yellow — low contrast, flagged in README). */
+  --secondary_orange_10: rgba(228, 82, 5, 0.11); /* deviation-overdue chip background (primary_orange text and border). */
+  --secondary_orange_60: rgba(228, 82, 5, 0.63); /* pendingBtn border. */
+  --primary_shadow_card: rgba(0, 0, 0, 0.15); /* Colour inside boxShadow_kpi and boxShadow_card. */
+  --primary_shadow_card_dark_lighter: rgba(0, 0, 0, 0.3); /* Colour of the stronger card / popover shadow. */
+  --primary_shadow_card_darker: rgba(0, 0, 0, 0.5); /* Darkest shadow colour; also the global modal backdrop value. */
+  --primary_shadow_box: #00000029; /* Colour inside sidebar_boxshadow. */
+  --boxShadow_kpi: 0px 1px 5px 0px rgba(0, 0, 0, 0.15); /* Mixin boxShadow_kpi — KPI tiles. */
+  --boxShadow_card: 0px 0px 6px 0px rgba(0, 0, 0, 0.15); /* Mixin boxShadow_card — the default elevation: cards, tables, tab panels, tooltips, draggable modals, dropdown menus. */
+  --sidebar_boxshadow: 0px 0px 8px 0px #00000029; /* Mixin sidebar_boxshadow — persistent sidebar chrome only. */
+  --shadow-card-strong: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Cards.module.scss .box, popover panels (download menu), sorting modal hover. */
+  --shadow-card-gray: 0px 0px 5px 1px #e6e7e8; /* Softer gray-tinted elevation for SingleTitleCard and DashboardStatusLegend panels. */
+  --shadow-menu: 5px 5px 5px 0px #c6c8ca; /* react-select menu popouts. */
+  --shadow-glow: 0px 0px 4.32px 0.97px #009fdf; /* 0 0 0.4vmin 0.09vmin primary_blue — active timeline dot glow. */
+}
+:root {
+  --space-0_3: 3.24px; /* 0.3vmin. Tightest gap: icon + label, chip padding. */
+  --space-0_4: 4.32px; /* 0.4vmin. Step of the derived vmin spacing scale. */
+  --space-0_5: 5.4px; /* 0.5vmin. Small gaps between tightly related elements. */
+  --space-0_6: 6.48px; /* 0.6vmin. Step of the derived vmin spacing scale. */
+  --space-0_7: 7.56px; /* 0.7vmin. Step of the derived vmin spacing scale. */
+  --space-0_8: 8.64px; /* 0.8vmin. Status chip padding. */
+  --space-0_9: 9.72px; /* 0.9vmin. Step of the derived vmin spacing scale. */
+  --space-1: 10.8px; /* 1vmin. Standard component padding (card body, table cell vertical). */
+  --space-1_2: 12.96px; /* 1.2vmin. Step of the derived vmin spacing scale. */
+  --space-1_5: 16.2px; /* 1.5vmin. Standard flex gap. */
+  --space-2: 21.6px; /* 2vmin. Component internal padding upper bound; mb_2 section spacing. */
+  --space-2_5: 27px; /* 2.5vmin. Step of the derived vmin spacing scale. */
+  --space-3: 32.4px; /* 3vmin. Section / region spacing; pr_3. */
+  --space-4: 43.2px; /* 4vmin. Step of the derived vmin spacing scale. */
+  --space-5: 54px; /* 5vmin. Gaps between major regions; page margins. */
+  --space-6: 64.8px; /* 6vmin. Step of the derived vmin spacing scale. */
+  --hairline: 1px; /* Fixed 1px borders that must not scale with the viewport. */
+  --radius-0: 0; /* Tabs (.nav-link), search buttons, pagination links — Bootstrap controls are square by default. */
+  --radius-2px: 2px; /* .modal-dialog, .modal-content. */
+  --radius-3px: 3px; /* Outer corners of the first/last table <th>. */
+  --radius-4px: 4px; /* Draggable modal, #capture_image, status/alert dot containers, legend card_container. */
+  --radius-0_2: 2.16px; /* 0.2vmin. Generic tooltips / data-title popovers. */
+  --radius-tooltip: 0.2rem; /* .react-tooltip. */
+  --radius-control: 3.24px; /* 0.3vmin — the default control radius: inputs, textareas, checkboxes, small buttons, chips, ag-Grid cells/menus, date pickers. */
+  --radius-0_4: 4.32px; /* 0.4vmin. .refreshBtn and card-header small buttons. */
+  --radius-0_5: 5.4px; /* 0.5vmin. .tooltip-inner, download options popover. */
+  --radius-nav: 6.48px; /* 0.6vmin. Sidebar nav links. */
+  --radius-card: 8.64px; /* 0.8vmin — elevated KPI cards (Cards.module.scss .box) and drag cards. */
+  --radius-5px: 5px; /* Legacy popup container. */
+  --radius-switch: 10px; /* Toggle switch (.switch-friend). */
+  --radius-pill: 37.8px; /* 3.5vmin. Top corners of triangle pill tabs. */
+  --radius-icon-square: 20%; /* .backgroundBlueButton rounded-square icon button. */
+  --radius-round: 50%; /* Avatars, status dots, round indicators. */
+  --z-sticky-header: 10; /* Sticky table headers. */
+  --z-status-banner: 20; /* In-flow status banners. */
+  --z-submenu: 999; /* Sidebar submenu, draggable modal content. */
+  --z-am5-modal: 1000; /* amCharts modal. */
+  --z-modal-backdrop: 1040; /* Bootstrap modal/backdrop stack base; +10 per nested modal up to 1080. */
+  --z-modal-max: 1080; /* Top of the nested modal stack. */
+  --z-picker: 9999; /* Date-picker popper, react-select menu, loading overlays — anything above an open modal. */
+  --z-tooltip: 100000; /* Generic tooltip container. */
+  --z-max: 99999999; /* Table drag menus / top-level overlays. */
+  --layout-header: 10.5%; /* Header (brand bar) share of the 16:9 canvas height. */
+  --layout-hairline: 0.4%; /* Header and footer gradient hairlines (blue on top, yellow at the bottom). */
+  --layout-content: 85%; /* Content row: sidebar + main. */
+  --layout-footer: 3.7%; /* Footer strip: calc(100% - 85% - 0.4% - 0.4% - 10.5%). */
+  --layout-sidebar: 205.2px; /* 19vmin fixed sidebar column. */
+  --layout-top-container: 54px; /* 5vmin page-title / filter bar above page content. */
+  --modal-xl: 1728px; /* 160vmin — .setMaxWidthForResponsiveModal modal-xl. */
+  --modal-lg: 1296px; /* 120vmin — modal-lg. */
+  --modal-md: 864px; /* 80vmin — modal-md. */
+  --font-text: "sabic_text_regular", serif;
+  --font-text-light: "sabic_text_light", serif;
+  --font-text-bold: "sabic_text_bold", serif;
+  --font-headline: "sabic_headline_regular", serif;
+  --font-headline-light: "sabic_headline_light", serif;
+  --font-headline-bold: "sabic_headline_bold", serif;
+  --font-icon: "icomoon";
+  --text-text-9-regular: 400 9.72px/1.2 var(--font-text); /* .text-9-regular — 0.9vmin. Smallest captions / footnotes */
+  --text-text-10-regular: 400 10.8px/1.2 var(--font-text); /* .text-10-regular — 1vmin. Fine print, chart axis labels */
+  --text-text-11-regular: 400 11.88px/1.2 var(--font-text); /* .text-11-regular — 1.1vmin. Secondary labels */
+  --text-text-12-regular: 400 12.96px/1.2 var(--font-text); /* .text-12-regular — 1.2vmin. Table headers, chips */
+  --text-text-13-regular: 400 14.04px/1.2 var(--font-text); /* .text-13-regular — 1.3vmin. Table body text */
+  --text-text-14-regular: 400 15.12px/1.2 var(--font-text); /* .text-14-regular — 1.4vmin. Standard body text, buttons, tabs */
+  --text-text-15-regular: 400 16.2px/1.2 var(--font-text); /* .text-15-regular — 1.5vmin. Header text (.header_text) */
+  --text-text-16-regular: 400 17.28px/1.2 var(--font-text); /* .text-16-regular — 1.6vmin. Sub-headings */
+  --text-text-17-regular: 400 18.36px/1.2 var(--font-text); /* .text-17-regular — 1.7vmin. Part of the text-9 → text-30 scale. */
+  --text-text-18-regular: 400 19.44px/1.2 var(--font-text); /* .text-18-regular — 1.8vmin. Card / section titles */
+  --text-text-20-regular: 400 21.6px/1.2 var(--font-text); /* .text-20-regular — 2vmin. Prominent values / KPIs */
+  --text-text-22-regular: 400 23.76px/1.2 var(--font-text); /* .text-22-regular — 2.2vmin. Part of the text-9 → text-30 scale. */
+  --text-text-24-regular: 400 25.92px/1.2 var(--font-text); /* .text-24-regular — 2.4vmin. Large KPI numbers */
+  --text-text-26-regular: 400 28.08px/1.2 var(--font-text); /* .text-26-regular — 2.6vmin. Part of the text-9 → text-30 scale. */
+  --text-text-28-regular: 400 30.24px/1.2 var(--font-text); /* .text-28-regular — 2.8vmin. Part of the text-9 → text-30 scale. */
+  --text-text-30-regular: 400 32.4px/1.2 var(--font-text); /* .text-30-regular — 3vmin. Hero / empty-state text */
+  --text-text-9-bold: 700 9.72px/1.2 var(--font-text-bold); /* .text-9-bold — 0.9vmin. Smallest captions / footnotes */
+  --text-text-10-bold: 700 10.8px/1.2 var(--font-text-bold); /* .text-10-bold — 1vmin. Fine print, chart axis labels */
+  --text-text-11-bold: 700 11.88px/1.2 var(--font-text-bold); /* .text-11-bold — 1.1vmin. Secondary labels */
+  --text-text-12-bold: 700 12.96px/1.2 var(--font-text-bold); /* .text-12-bold — 1.2vmin. Table headers, chips */
+  --text-text-13-bold: 700 14.04px/1.2 var(--font-text-bold); /* .text-13-bold — 1.3vmin. Table body text */
+  --text-text-14-bold: 700 15.12px/1.2 var(--font-text-bold); /* .text-14-bold — 1.4vmin. Standard body text, buttons, tabs */
+  --text-text-15-bold: 700 16.2px/1.2 var(--font-text-bold); /* .text-15-bold — 1.5vmin. Header text (.header_text) */
+  --text-text-16-bold: 700 17.28px/1.2 var(--font-text-bold); /* .text-16-bold — 1.6vmin. Sub-headings */
+  --text-text-17-bold: 700 18.36px/1.2 var(--font-text-bold); /* .text-17-bold — 1.7vmin. Part of the text-9 → text-30 scale. */
+  --text-text-18-bold: 700 19.44px/1.2 var(--font-text-bold); /* .text-18-bold — 1.8vmin. Card / section titles */
+  --text-text-20-bold: 700 21.6px/1.2 var(--font-text-bold); /* .text-20-bold — 2vmin. Prominent values / KPIs */
+  --text-text-22-bold: 700 23.76px/1.2 var(--font-text-bold); /* .text-22-bold — 2.2vmin. Part of the text-9 → text-30 scale. */
+  --text-text-24-bold: 700 25.92px/1.2 var(--font-text-bold); /* .text-24-bold — 2.4vmin. Large KPI numbers */
+  --text-text-26-bold: 700 28.08px/1.2 var(--font-text-bold); /* .text-26-bold — 2.6vmin. Part of the text-9 → text-30 scale. */
+  --text-text-28-bold: 700 30.24px/1.2 var(--font-text-bold); /* .text-28-bold — 2.8vmin. Part of the text-9 → text-30 scale. */
+  --text-text-30-bold: 700 32.4px/1.2 var(--font-text-bold); /* .text-30-bold — 3vmin. Hero / empty-state text */
+  --text-text-9-light: 300 9.72px/1.2 var(--font-text-light); /* .text-9-light — 0.9vmin. Smallest captions / footnotes */
+  --text-text-10-light: 300 10.8px/1.2 var(--font-text-light); /* .text-10-light — 1vmin. Fine print, chart axis labels */
+  --text-text-11-light: 300 11.88px/1.2 var(--font-text-light); /* .text-11-light — 1.1vmin. Secondary labels */
+  --text-text-12-light: 300 12.96px/1.2 var(--font-text-light); /* .text-12-light — 1.2vmin. Table headers, chips */
+  --text-text-13-light: 300 14.04px/1.2 var(--font-text-light); /* .text-13-light — 1.3vmin. Table body text */
+  --text-text-14-light: 300 15.12px/1.2 var(--font-text-light); /* .text-14-light — 1.4vmin. Standard body text, buttons, tabs */
+  --text-text-15-light: 300 16.2px/1.2 var(--font-text-light); /* .text-15-light — 1.5vmin. Header text (.header_text) */
+  --text-text-16-light: 300 17.28px/1.2 var(--font-text-light); /* .text-16-light — 1.6vmin. Sub-headings */
+  --text-text-17-light: 300 18.36px/1.2 var(--font-text-light); /* .text-17-light — 1.7vmin. Part of the text-9 → text-30 scale. */
+  --text-text-18-light: 300 19.44px/1.2 var(--font-text-light); /* .text-18-light — 1.8vmin. Card / section titles */
+  --text-text-20-light: 300 21.6px/1.2 var(--font-text-light); /* .text-20-light — 2vmin. Prominent values / KPIs */
+  --text-text-22-light: 300 23.76px/1.2 var(--font-text-light); /* .text-22-light — 2.2vmin. Part of the text-9 → text-30 scale. */
+  --text-text-24-light: 300 25.92px/1.2 var(--font-text-light); /* .text-24-light — 2.4vmin. Large KPI numbers */
+  --text-text-26-light: 300 28.08px/1.2 var(--font-text-light); /* .text-26-light — 2.6vmin. Part of the text-9 → text-30 scale. */
+  --text-text-28-light: 300 30.24px/1.2 var(--font-text-light); /* .text-28-light — 2.8vmin. Part of the text-9 → text-30 scale. */
+  --text-text-30-light: 300 32.4px/1.2 var(--font-text-light); /* .text-30-light — 3vmin. Hero / empty-state text */
+  --text-body: 400 15.12px/1.2 var(--font-text); /* Default UI text: sabic_text_regular at 1.4vmin in primary_gray. */
+  --text-label-upper: 400 15.12px/1.2 var(--font-text); /* Buttons, tabs, tooltip content — always uppercase. */
+  --text-table-header: 700 12.96px/1.2 var(--font-text-bold); /* Table / ag-Grid header cells: uppercase, primary_gray on primary_blue_bg. */
+  --text-table-cell: 400 14.04px/1.2 var(--font-text); /* Table body cells, uppercase in plain tables. */
+  --text-header-text: 400 16.2px/1.2 var(--font-text); /* Page header text (.header_text). */
+  --text-card-title: 700 19.44px/1.2 var(--font-text-bold); /* Card and section titles (panel card titles are uppercase). */
+  --text-kpi-value: 700 25.92px/1.2 var(--font-text-bold); /* Large KPI numbers on KPI tiles. */
+  --text-headline: 400 32.4px/1.2 var(--font-headline-bold); /* Rare large headline / hero / empty-state moments in sabic_headline_bold. */
+}
+.text-9-regular {
+  font-family: var(--font-text);
+  font-size: 9.72px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-10-regular {
+  font-family: var(--font-text);
+  font-size: 10.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-11-regular {
+  font-family: var(--font-text);
+  font-size: 11.88px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-12-regular {
+  font-family: var(--font-text);
+  font-size: 12.96px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-13-regular {
+  font-family: var(--font-text);
+  font-size: 14.04px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-14-regular {
+  font-family: var(--font-text);
+  font-size: 15.12px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-15-regular {
+  font-family: var(--font-text);
+  font-size: 16.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-16-regular {
+  font-family: var(--font-text);
+  font-size: 17.28px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-17-regular {
+  font-family: var(--font-text);
+  font-size: 18.36px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-18-regular {
+  font-family: var(--font-text);
+  font-size: 19.44px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-20-regular {
+  font-family: var(--font-text);
+  font-size: 21.6px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-22-regular {
+  font-family: var(--font-text);
+  font-size: 23.76px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-24-regular {
+  font-family: var(--font-text);
+  font-size: 25.92px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-26-regular {
+  font-family: var(--font-text);
+  font-size: 28.08px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-28-regular {
+  font-family: var(--font-text);
+  font-size: 30.24px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-30-regular {
+  font-family: var(--font-text);
+  font-size: 32.4px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.text-9-bold {
+  font-family: var(--font-text-bold);
+  font-size: 9.72px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-10-bold {
+  font-family: var(--font-text-bold);
+  font-size: 10.8px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-11-bold {
+  font-family: var(--font-text-bold);
+  font-size: 11.88px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-12-bold {
+  font-family: var(--font-text-bold);
+  font-size: 12.96px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-13-bold {
+  font-family: var(--font-text-bold);
+  font-size: 14.04px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-14-bold {
+  font-family: var(--font-text-bold);
+  font-size: 15.12px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-15-bold {
+  font-family: var(--font-text-bold);
+  font-size: 16.2px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-16-bold {
+  font-family: var(--font-text-bold);
+  font-size: 17.28px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-17-bold {
+  font-family: var(--font-text-bold);
+  font-size: 18.36px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-18-bold {
+  font-family: var(--font-text-bold);
+  font-size: 19.44px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-20-bold {
+  font-family: var(--font-text-bold);
+  font-size: 21.6px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-22-bold {
+  font-family: var(--font-text-bold);
+  font-size: 23.76px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-24-bold {
+  font-family: var(--font-text-bold);
+  font-size: 25.92px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-26-bold {
+  font-family: var(--font-text-bold);
+  font-size: 28.08px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-28-bold {
+  font-family: var(--font-text-bold);
+  font-size: 30.24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-30-bold {
+  font-family: var(--font-text-bold);
+  font-size: 32.4px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.text-9-light {
+  font-family: var(--font-text-light);
+  font-size: 9.72px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-10-light {
+  font-family: var(--font-text-light);
+  font-size: 10.8px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-11-light {
+  font-family: var(--font-text-light);
+  font-size: 11.88px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-12-light {
+  font-family: var(--font-text-light);
+  font-size: 12.96px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-13-light {
+  font-family: var(--font-text-light);
+  font-size: 14.04px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-14-light {
+  font-family: var(--font-text-light);
+  font-size: 15.12px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-15-light {
+  font-family: var(--font-text-light);
+  font-size: 16.2px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-16-light {
+  font-family: var(--font-text-light);
+  font-size: 17.28px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-17-light {
+  font-family: var(--font-text-light);
+  font-size: 18.36px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-18-light {
+  font-family: var(--font-text-light);
+  font-size: 19.44px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-20-light {
+  font-family: var(--font-text-light);
+  font-size: 21.6px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-22-light {
+  font-family: var(--font-text-light);
+  font-size: 23.76px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-24-light {
+  font-family: var(--font-text-light);
+  font-size: 25.92px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-26-light {
+  font-family: var(--font-text-light);
+  font-size: 28.08px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-28-light {
+  font-family: var(--font-text-light);
+  font-size: 30.24px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.text-30-light {
+  font-family: var(--font-text-light);
+  font-size: 32.4px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-text);
+  font-size: 15.12px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.label-upper {
+  font-family: var(--font-text);
+  font-size: 15.12px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.table-header {
+  font-family: var(--font-text-bold);
+  font-size: 12.96px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.table-cell {
+  font-family: var(--font-text);
+  font-size: 14.04px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.header-text {
+  font-family: var(--font-text);
+  font-size: 16.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.card-title {
+  font-family: var(--font-text-bold);
+  font-size: 19.44px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.kpi-value {
+  font-family: var(--font-text-bold);
+  font-size: 25.92px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.headline {
+  font-family: var(--font-headline-bold);
+  font-size: 32.4px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+@font-face {
+  font-family: "sabic_text_light";
+  src: url("fonts/sabictypefacetext_lt-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabic_text_regular";
+  src: url("fonts/sabictypefacetext_rg-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabic_text_bold";
+  src: url("fonts/sabictypefacetext_bd-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabic_headline_light";
+  src: url("fonts/sabictypefaceheadline_lt-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabic_headline_regular";
+  src: url("fonts/sabictypefaceheadline_rg-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabic_headline_bold";
+  src: url("fonts/sabictypefaceheadline_bd-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline bd";
+  src: url("fonts/sabictypefaceheadline_bd-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline bd";
+  src: url("../_blob/711f9d631874ddf261a517a094b45ebc") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline lt";
+  src: url("../_blob/f9b42b13e16830e67162f86b79e0d6e3") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline lt";
+  src: url("../_blob/6591ef9926fd2cad13406213a0e64d8e") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline rg";
+  src: url("../_blob/4ce573a26a51f18f2337e1b04353b9f8") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefaceheadline rg";
+  src: url("../_blob/59b2e4c4fb9199d075459868efc7653c") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext bd";
+  src: url("../_blob/ac16b1e7bad5446c417498bc274c671d") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext bd";
+  src: url("../_blob/b787ed16af9a5a952bf32280d10da02b") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext lt";
+  src: url("../_blob/576e186c391bf1306285907a6244c771") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext lt";
+  src: url("../_blob/0ad6a3d6fcd685503054e934f6b426e3") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext rg";
+  src: url("../_blob/f9840ad47a5ea9cf51c34208f7c93b30") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sabictypefacetext rg";
+  src: url("../_blob/7137c1ef5fbef1ee1f84a386646c8ee9") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

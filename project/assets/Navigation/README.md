@@ -1,0 +1,1 @@
+Sidebar nav icons, single-ink gray (#4D4D4D family). Show at 2 × 2vmin inside nav items; recolour white on hover/active with filter: brightness(0) invert(1). camera_icon.svg is the panel-card 'capture image' action.

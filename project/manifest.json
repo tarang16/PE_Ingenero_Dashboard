@@ -1,0 +1,3090 @@
+{
+  "manifestVersion": 3,
+  "name": "PE Dashboard",
+  "namespace": "PE",
+  "files": [
+    "assets/Affiliates/README.md",
+    "assets/Common/README.md",
+    "assets/FileTypes/README.md",
+    "assets/Header/README.md",
+    "assets/IconFont/README.md",
+    "assets/IconFont/selection.json",
+    "assets/IconsV2/README.md",
+    "assets/KPIs/README.md",
+    "assets/Loaders/README.md",
+    "assets/Logos/README.md",
+    "assets/Maps/README.md",
+    "assets/Navigation/README.md",
+    "assets/Screens/README.md",
+    "assets/Status/README.md",
+    "assets/Tables/README.md",
+    "components/AppShell/README.md",
+    "components/Breadcrumb/README.md",
+    "components/Button/README.md",
+    "components/Checkbox/README.md",
+    "components/DataGrid/README.md",
+    "components/DatePicker/README.md",
+    "components/Header/README.md",
+    "components/KpiCard/README.md",
+    "components/Loader/README.md",
+    "components/Modal/README.md",
+    "components/Pagination/README.md",
+    "components/PanelCard/README.md",
+    "components/Scrollbar/README.md",
+    "components/Select/README.md",
+    "components/Sidebar/README.md",
+    "components/StatusChip/README.md",
+    "components/Table/README.md",
+    "components/Tabs/README.md",
+    "components/TextInput/README.md",
+    "components/Toast/README.md",
+    "components/Toggle/README.md",
+    "components/Tooltip/README.md",
+    "components/TriangleTabs/README.md",
+    "components/bundle.css",
+    "fonts/icomoon.woff",
+    "fonts/sabictypefaceheadline_bd-webfont.woff",
+    "fonts/sabictypefaceheadline_bd-webfont.woff2",
+    "fonts/sabictypefaceheadline_lt-webfont.woff2",
+    "fonts/sabictypefaceheadline_rg-webfont.woff2",
+    "fonts/sabictypefacetext_bd-webfont.woff2",
+    "fonts/sabictypefacetext_lt-webfont.woff2",
+    "fonts/sabictypefacetext_rg-webfont.woff2",
+    "tokens.css"
+  ],
+  "libraries": [],
+  "components": [
+    {
+      "name": "AppShell",
+      "group": "Layout",
+      "summary": "The fixed 16:9 page frame (RootLayout.module.scss): header 10.5% → blue header hairline 0.4% → content 85% (19vmin sidebar + main) → yellow footer hairline 0.4…"
+    },
+    {
+      "name": "Breadcrumb",
+      "group": "Navigation",
+      "summary": "Breadcrumb trail: items in primary_blue, capitalised, no underline; a 2.1vmin separator icon (breadcrumb_separator.svg) with 0.6vmin side margins; the last ite…"
+    },
+    {
+      "name": "Button",
+      "group": "Actions",
+      "summary": "Uppercase, flat, square-cornered (radius-control, 0.3vmin) buttons in sabic_text_regular at 1.4vmin."
+    },
+    {
+      "name": "Checkbox",
+      "group": "Forms",
+      "summary": "Checkboxes and radios: 2 × 2vmin, primary_gray_3 border, radius-control (radios radius-round); checked fills primary_blue with a white tick."
+    },
+    {
+      "name": "DataGrid",
+      "group": "Data",
+      "summary": "ag-Grid (ag-theme-alpine) re-skinned to the brand: wrapper with boxShadow_card and radius-control; header on primary_blue_bg in sabic_text_bold 1.18vmin weight…"
+    },
+    {
+      "name": "DatePicker",
+      "group": "Forms",
+      "summary": "react-datepicker inputs styled like TextInput (1px primary_gray_3, radius-control); the field being edited gets a 2px primary_blue border."
+    },
+    {
+      "name": "Header",
+      "group": "Navigation",
+      "summary": "The brand bar (10.5% of the canvas): product lockup on the left, utility icons on primary_blue_bg chips and the SABIC logo on the right, closed by the header h…"
+    },
+    {
+      "name": "KpiCard",
+      "group": "Cards",
+      "summary": "Top-of-page KPI tile: a coloured brand KPI icon, an uppercase label and a large bold value with its unit."
+    },
+    {
+      "name": "Loader",
+      "group": "Feedback",
+      "summary": "The product's animated SVG loaders, inlined so they animate (the copies in the Loaders asset group are static frames: the asset store strips SVG animation)."
+    },
+    {
+      "name": "Modal",
+      "group": "Overlays",
+      "summary": "Bootstrap modal, re-skinned: vertically centred, radius-2px dialog with no border; 10px header with a primary_gray_3 rule and a gray close icon (2vmin in a 2.8…"
+    },
+    {
+      "name": "Pagination",
+      "group": "Navigation",
+      "summary": "Bootstrap pagination, squared off: .page-link radius-0, min-width 5vmin; active page primary_blue with white text; disabled pages cursor: not-allowed."
+    },
+    {
+      "name": "PanelCard",
+      "group": "Cards",
+      "summary": "The \"SingleTitleCard\" panel: white surface, soft gray elevation shadow-card-gray (0 0 5px 1px primary_gray_4), 1.3vmin side padding, a 3.5vmin header with an u…"
+    },
+    {
+      "name": "Scrollbar",
+      "group": "Data",
+      "summary": "Custom thin scrollbar on every scroll container (.pe_scroll): width 0.6vmin, horizontal height 3px, track #f1f1f1, thumb primary_gray_2 → primary_gray on hover."
+    },
+    {
+      "name": "Select",
+      "group": "Forms",
+      "summary": "react-select, re-skinned (react-select-modifyDetails / react-selectTimezone prefixes): control with 1px primary_gray_3 border and radius-control, no focus glow…"
+    },
+    {
+      "name": "Sidebar",
+      "group": "Navigation",
+      "summary": "The fixed 19vmin left navigation: white with sidebar_boxshadow, 1.5vmin top padding."
+    },
+    {
+      "name": "StatusChip",
+      "group": "Status",
+      "summary": "Deviation / alert status chips: a 1px border and text in the solid semantic colour on a tint of the same hue, radius-control, 0.8vmin padding, min-height 2.8vm…"
+    },
+    {
+      "name": "Table",
+      "group": "Data",
+      "summary": "The plain HTML table (table.module.scss) for simple custom tables: sticky 5.5vmin header on primary_blue_bg with uppercase sabic_text_bold 1.2vmin labels and a…"
+    },
+    {
+      "name": "Tabs",
+      "group": "Navigation",
+      "summary": "Standard Bootstrap tabs: flat, 6vmin tall, white, no bottom border; labels uppercase 1.4vmin primary_gray; hover and active get primary_gray_4 background and p…"
+    },
+    {
+      "name": "TextInput",
+      "group": "Forms",
+      "summary": "Text inputs and textareas: 1px primary_gray_3 border, radius-control; focus keeps the same border — no blue glow, no outline."
+    },
+    {
+      "name": "Toast",
+      "group": "Feedback",
+      "summary": ".custom-toast: white, 1px border in the semantic colour and a 2px animated progress underline (width 100% → 0% over 2s, looping). .custom-toast-success uses pr…"
+    },
+    {
+      "name": "Toggle",
+      "group": "Forms",
+      "summary": ".switch-friend: 2px primary_blue track border, radius-switch (10px); the handle is outlined primary_blue when off and turns primary_yellow when on."
+    },
+    {
+      "name": "Tooltip",
+      "group": "Overlays",
+      "summary": "react-tooltip, dark by default (primary_black with white text), radius-tooltip (0.2rem), padding 1.4vmin 2vmin 1.1vmin, uppercase 1.4vmin text. .lightTooltipBa…"
+    },
+    {
+      "name": "TriangleTabs",
+      "group": "Navigation",
+      "summary": "The distinctive trapezoid \"pill\" tabs (.commonTriangleTabs): clip-path: polygon(2.5vmin 0, calc(100% - 2.5vmin) 0, 100% 100%, 0 100%), top corners radius-pill…"
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "plant_efficiency_header_logo.png",
+        "sabic_logo.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/plant_efficiency_header_logo.png",
+          "id": "5b1c585b96d8cc9ab3f35c98b0df5028"
+        },
+        {
+          "path": "assets/Logos/sabic_logo.svg",
+          "id": "178b2314a73f58773c182bc5ea7074fc"
+        }
+      ]
+    },
+    {
+      "name": "KPIs",
+      "order": [
+        "active_alerts.svg",
+        "affiliates.svg",
+        "co2_reduction.svg",
+        "distinctusers.svg",
+        "energy_red.svg",
+        "overdue_alerts.svg",
+        "plants.svg",
+        "production_opp.svg",
+        "system/active_deviations.svg",
+        "system/energy_efficiency.svg",
+        "system/environment_efficiency.svg",
+        "system/process_efficiency.svg",
+        "system/production_opp.svg",
+        "system/Sorting.svg",
+        "tooltip/tool_tip_affiliates.svg",
+        "tooltip/tool_tip_co2_reduction.svg",
+        "tooltip/tool_tip_energy_production.svg",
+        "tooltip/tool_tip_plants.svg",
+        "tooltip/tool_tip_production_gain.svg",
+        "tooltip/tool_tip_systems.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/KPIs/active_alerts.svg",
+          "id": "5d89d3e0cce9d5e570339deef1c9616f"
+        },
+        {
+          "path": "assets/KPIs/affiliates.svg",
+          "id": "566c5e093e4f90414dfb2efc44564c06"
+        },
+        {
+          "path": "assets/KPIs/co2_reduction.svg",
+          "id": "26545e49d602acfb47320a32643d710a"
+        },
+        {
+          "path": "assets/KPIs/distinctusers.svg",
+          "id": "b43e909360d2de352485627d9c7c83cd"
+        },
+        {
+          "path": "assets/KPIs/energy_red.svg",
+          "id": "33f83df24b2b7b713ab34c6c063eb925"
+        },
+        {
+          "path": "assets/KPIs/overdue_alerts.svg",
+          "id": "d8708c4ea347ba788ee5e9919dcce0e9"
+        },
+        {
+          "path": "assets/KPIs/plants.svg",
+          "id": "f7c483b77b48c77571eb01062da9c8af"
+        },
+        {
+          "path": "assets/KPIs/production_opp.svg",
+          "id": "7d6c46680be79b0432234e4ba824e0a6"
+        },
+        {
+          "path": "assets/KPIs/system/active_deviations.svg",
+          "id": "eaf95110ed6ccad4baf0fc1063c5fd8a"
+        },
+        {
+          "path": "assets/KPIs/system/energy_efficiency.svg",
+          "id": "1a77046868dc9cf04a1fdbf8495222fc"
+        },
+        {
+          "path": "assets/KPIs/system/environment_efficiency.svg",
+          "id": "8ed834b6b99818642d5ff7f308245eb9"
+        },
+        {
+          "path": "assets/KPIs/system/process_efficiency.svg",
+          "id": "efedbc9e548722d91021afbfdb43a73e"
+        },
+        {
+          "path": "assets/KPIs/system/production_opp.svg",
+          "id": "6f7f310c207f75b8879bc6e1de7119a5"
+        },
+        {
+          "path": "assets/KPIs/system/Sorting.svg",
+          "id": "15ac21c842a3fa61be936714c970f49c"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_affiliates.svg",
+          "id": "fa5b0bd9bf519a55de5a42028b75c34f"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_co2_reduction.svg",
+          "id": "dc783239c0bd3a9bb8ffe983f1051575"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_energy_production.svg",
+          "id": "aba93eb61e0df3a9640a1a68d21b0fe7"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_plants.svg",
+          "id": "b72b37fcbc43c3e71fb4ae2497c5be15"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_production_gain.svg",
+          "id": "cc043856d08b90ca29b2157b794805c8"
+        },
+        {
+          "path": "assets/KPIs/tooltip/tool_tip_systems.svg",
+          "id": "7e5e2d79501cc62ee6f2d6d8279c7e2d"
+        }
+      ]
+    },
+    {
+      "name": "IconsV2",
+      "tile": "s",
+      "order": [
+        "actionable_disabled_new_icon.svg",
+        "active_deviation_color_icon.svg",
+        "affiliates.svg",
+        "affiliates_color_icon.svg",
+        "arrow_down_angel_bracket.svg",
+        "arrow_down_blue.svg",
+        "arrow_down_gray.svg",
+        "arrow_icon_down.svg",
+        "arrow_icon_up.svg",
+        "arrow_right_angel_bracket.svg",
+        "arrow_right_angel_bracket_blue.svg",
+        "badgeIcon.svg",
+        "brain_icon.svg",
+        "calendar_icon.svg",
+        "chartToggle.svg",
+        "checkIconwithGreenBg.svg",
+        "co2Reduction_color_icon.svg",
+        "crossRedIcon.svg",
+        "energyProduction_color_icon.svg",
+        "eyeIcon.svg",
+        "furnace_summary_icon.svg",
+        "helpActiveIcon.svg",
+        "Home.svg",
+        "map.svg",
+        "overdue_deviations.svg",
+        "plants.svg",
+        "plants_color_icon.svg",
+        "predicted_action2.svg",
+        "predicted_action2_gray.svg",
+        "predicted_action3_gray.svg",
+        "productionGain_color_icon.png",
+        "reset_icon.svg",
+        "star_icon.svg",
+        "start_icon_filled.svg",
+        "system_color_icon.svg",
+        "table_view_toggle.svg",
+        "Triple_arrow.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/IconsV2/actionable_disabled_new_icon.svg",
+          "id": "8215cf17802b6075a2afafbab85bc9c7"
+        },
+        {
+          "path": "assets/IconsV2/active_deviation_color_icon.svg",
+          "id": "30f9fdf7de247da0f94df82261156ec9"
+        },
+        {
+          "path": "assets/IconsV2/affiliates.svg",
+          "id": "da00f4a062952657c059f79af0965f80"
+        },
+        {
+          "path": "assets/IconsV2/affiliates_color_icon.svg",
+          "id": "bda9d0678eacfd0daeda362cc983665b"
+        },
+        {
+          "path": "assets/IconsV2/arrow_down_angel_bracket.svg",
+          "id": "ab6d775092299f960ae3f09777b50ca9"
+        },
+        {
+          "path": "assets/IconsV2/arrow_down_blue.svg",
+          "id": "988b9c45db741caebd657fab053de1f2"
+        },
+        {
+          "path": "assets/IconsV2/arrow_down_gray.svg",
+          "id": "4e8a03dcf7a615840bc6bc1e3dda85cb"
+        },
+        {
+          "path": "assets/IconsV2/arrow_icon_down.svg",
+          "id": "743584777df9674142622e1ed0daf7fd"
+        },
+        {
+          "path": "assets/IconsV2/arrow_icon_up.svg",
+          "id": "7c52fa06d248e2b6b66bea8a59db7219"
+        },
+        {
+          "path": "assets/IconsV2/arrow_right_angel_bracket.svg",
+          "id": "75fa6cfdfd6dbe02edfbe47e32f495c3"
+        },
+        {
+          "path": "assets/IconsV2/arrow_right_angel_bracket_blue.svg",
+          "id": "c90d8ac1fee3cb6d4a567381dc083574"
+        },
+        {
+          "path": "assets/IconsV2/badgeIcon.svg",
+          "id": "2f49ea396d37ebcee45bc23131064adf"
+        },
+        {
+          "path": "assets/IconsV2/brain_icon.svg",
+          "id": "9f1d2555dfb066a25fa33a9e1afef60d"
+        },
+        {
+          "path": "assets/IconsV2/calendar_icon.svg",
+          "id": "62f90e8cc72b7099f619a3788cad8c80"
+        },
+        {
+          "path": "assets/IconsV2/chartToggle.svg",
+          "id": "b106d036371812b2c3bf61b752effdcf"
+        },
+        {
+          "path": "assets/IconsV2/checkIconwithGreenBg.svg",
+          "id": "e7d0120e40398c91be8f6f2ad2ea9505"
+        },
+        {
+          "path": "assets/IconsV2/co2Reduction_color_icon.svg",
+          "id": "50865faecc7877275fe60aa1d3bfb802"
+        },
+        {
+          "path": "assets/IconsV2/crossRedIcon.svg",
+          "id": "97923e1193aedd14fe111e711bd31f5e"
+        },
+        {
+          "path": "assets/IconsV2/energyProduction_color_icon.svg",
+          "id": "a6dd7b782df6bc83f7c31f55b653245c"
+        },
+        {
+          "path": "assets/IconsV2/eyeIcon.svg",
+          "id": "924f04aefb3ab3a5319d5e6d9fa271a5"
+        },
+        {
+          "path": "assets/IconsV2/furnace_summary_icon.svg",
+          "id": "e81e56d13182332a9def6ef114699ae3"
+        },
+        {
+          "path": "assets/IconsV2/helpActiveIcon.svg",
+          "id": "74c59bc86bd2f6db96d5dc025b92968b"
+        },
+        {
+          "path": "assets/IconsV2/Home.svg",
+          "id": "31314d51e526c7d41fb82d5504864b15"
+        },
+        {
+          "path": "assets/IconsV2/map.svg",
+          "id": "1aae520dab42511da4a657434a86270e"
+        },
+        {
+          "path": "assets/IconsV2/overdue_deviations.svg",
+          "id": "34300242415880e256bb7443452eb767"
+        },
+        {
+          "path": "assets/IconsV2/plants.svg",
+          "id": "fa41b160706329d60aa2f2158dd39860"
+        },
+        {
+          "path": "assets/IconsV2/plants_color_icon.svg",
+          "id": "92cb62ab939a1653e4077d76c1b64a62"
+        },
+        {
+          "path": "assets/IconsV2/predicted_action2.svg",
+          "id": "4c4be28e1601f7554090ed148cb6d88d"
+        },
+        {
+          "path": "assets/IconsV2/predicted_action2_gray.svg",
+          "id": "92ddf2f87ce65557dffffc55845f8fd6"
+        },
+        {
+          "path": "assets/IconsV2/predicted_action3_gray.svg",
+          "id": "6fe92c2100529dbe85d83991fef99cce"
+        },
+        {
+          "path": "assets/IconsV2/productionGain_color_icon.png",
+          "id": "2542a8bbf2620502b1d5c385b403bd1c"
+        },
+        {
+          "path": "assets/IconsV2/reset_icon.svg",
+          "id": "44c08e11ddeb980e9b1dd92a48e0d4cc"
+        },
+        {
+          "path": "assets/IconsV2/star_icon.svg",
+          "id": "e64952fccf17b81761601ecc6b057cd7"
+        },
+        {
+          "path": "assets/IconsV2/start_icon_filled.svg",
+          "id": "68345c5d0c0ea2a77486c0bbf62f1ca4"
+        },
+        {
+          "path": "assets/IconsV2/system_color_icon.svg",
+          "id": "cf8ada50ee78b9e34c98299cab4f050a"
+        },
+        {
+          "path": "assets/IconsV2/table_view_toggle.svg",
+          "id": "468ac4bc91664faaa24c5b73cbd7b72a"
+        },
+        {
+          "path": "assets/IconsV2/Triple_arrow.svg",
+          "id": "2e7f15517dc9d64bc66efcb0203ffa77"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "tile": "s",
+      "order": [
+        "arrow_down_angel_bracket.svg",
+        "bookmark_icon.svg",
+        "bookmark_icon_filled.svg",
+        "camera_icon.svg",
+        "circlearrowIcon.svg",
+        "crackingIcon.svg",
+        "decok.svg",
+        "download_icon.svg",
+        "expand_icon.svg",
+        "folder.svg",
+        "health_check_report.svg",
+        "hss.svg",
+        "monitoring.svg",
+        "overview.svg",
+        "settings.svg",
+        "shutdown.svg",
+        "summary.svg",
+        "triangle_arrow_icon.svg",
+        "view_eye_icon.svg",
+        "walkthrough_open_book_gray.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Navigation/arrow_down_angel_bracket.svg",
+          "id": "c6266950e8becb48739ad7d2087aa15c"
+        },
+        {
+          "path": "assets/Navigation/bookmark_icon.svg",
+          "id": "0370fade143f26190d403d31ccfffbdd"
+        },
+        {
+          "path": "assets/Navigation/bookmark_icon_filled.svg",
+          "id": "4f47eb3e9de2bc149e9e503e136022a3"
+        },
+        {
+          "path": "assets/Navigation/camera_icon.svg",
+          "id": "6bb4a711e0376cd8de53dd88d0a4eadf"
+        },
+        {
+          "path": "assets/Navigation/circlearrowIcon.svg",
+          "id": "590444e5db8f9c09634e04eb9991ae3d"
+        },
+        {
+          "path": "assets/Navigation/crackingIcon.svg",
+          "id": "eb5020a22c1b18e5c1139a089aec5025"
+        },
+        {
+          "path": "assets/Navigation/decok.svg",
+          "id": "0b6cf5e55fdae52e8abb28448ee35dde"
+        },
+        {
+          "path": "assets/Navigation/download_icon.svg",
+          "id": "36883a35ba5ca7918c5e282352ee0280"
+        },
+        {
+          "path": "assets/Navigation/expand_icon.svg",
+          "id": "6c6fd14a2e61458bdcf67c791b5fbdc6"
+        },
+        {
+          "path": "assets/Navigation/folder.svg",
+          "id": "36f6c246cf20de7a496520d1aecbc01a"
+        },
+        {
+          "path": "assets/Navigation/health_check_report.svg",
+          "id": "309767a9b1485ad572fd7ad572adf9fa"
+        },
+        {
+          "path": "assets/Navigation/hss.svg",
+          "id": "f6d2795b40b4ff40833ad1bd675d8a42"
+        },
+        {
+          "path": "assets/Navigation/monitoring.svg",
+          "id": "2f6f2eec3bdb61d61a3bc441f15ad7c5"
+        },
+        {
+          "path": "assets/Navigation/overview.svg",
+          "id": "11df6ea932c14a646ea0a9dbae158059"
+        },
+        {
+          "path": "assets/Navigation/settings.svg",
+          "id": "e7d70e9f9c649e2021f652a1ef8ae02a"
+        },
+        {
+          "path": "assets/Navigation/shutdown.svg",
+          "id": "0dd2326fdc1016e7247bbbe97d3ef0fa"
+        },
+        {
+          "path": "assets/Navigation/summary.svg",
+          "id": "dc56b5de491b3b84d24aaf4730e89cc8"
+        },
+        {
+          "path": "assets/Navigation/triangle_arrow_icon.svg",
+          "id": "8838a4f0e6660aebbfad64ab2961d4b1"
+        },
+        {
+          "path": "assets/Navigation/view_eye_icon.svg",
+          "id": "0653ff4d6c3ed61360f5787b4e8c0fba"
+        },
+        {
+          "path": "assets/Navigation/walkthrough_open_book_gray.svg",
+          "id": "a39490dc7e5ccc625bf62bb28489060d"
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "tile": "s",
+      "order": [
+        "backarrowIcon.svg",
+        "calender_gray_icon.svg",
+        "ecm_icon.svg",
+        "edit_default_icon.svg",
+        "hangfire_icon.svg",
+        "logout.svg",
+        "notification_icon.svg",
+        "search_icon.svg",
+        "super_admin_default.svg",
+        "super_admin_default_bgspace.svg",
+        "userProfileIcon.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Header/backarrowIcon.svg",
+          "id": "be95dc882464e11c3a63a10813b0bdd9"
+        },
+        {
+          "path": "assets/Header/calender_gray_icon.svg",
+          "id": "64351a2dd61b4e889d3dac83ab49dc8f"
+        },
+        {
+          "path": "assets/Header/ecm_icon.svg",
+          "id": "34187f5d9ce4e88f8aed826dd8745ed9"
+        },
+        {
+          "path": "assets/Header/edit_default_icon.svg",
+          "id": "0bf7d85c6787486d78aaf5a47a532d9b"
+        },
+        {
+          "path": "assets/Header/hangfire_icon.svg",
+          "id": "c7e507f060f10c0677a8973b365e8a4b"
+        },
+        {
+          "path": "assets/Header/logout.svg",
+          "id": "449db32a6b00466cd9f72f7e768aaa98"
+        },
+        {
+          "path": "assets/Header/notification_icon.svg",
+          "id": "8b4a268fdfb50bd72aa672fe075d2eac"
+        },
+        {
+          "path": "assets/Header/search_icon.svg",
+          "id": "d75349ff43d81fa1fe2da95b9a687619"
+        },
+        {
+          "path": "assets/Header/super_admin_default.svg",
+          "id": "a9416e2fa8a45351b12b9dda48e92bf0"
+        },
+        {
+          "path": "assets/Header/super_admin_default_bgspace.svg",
+          "id": "39ade01debdcc1f4a2490006115fcf6e"
+        },
+        {
+          "path": "assets/Header/userProfileIcon.svg",
+          "id": "4d3ed3669171b88decf26f12b053599b"
+        }
+      ]
+    },
+    {
+      "name": "Common",
+      "tile": "s",
+      "order": [
+        "area_chart.svg",
+        "bar_chart.svg",
+        "bin.svg",
+        "bin_blue.svg",
+        "blue_clock_icon_gray_background.png",
+        "blue_download_icon.svg",
+        "blue_usericon_gray_background.svg",
+        "blue_warning.svg",
+        "breadcrumb_separator.svg",
+        "check.svg",
+        "check_green_bold.svg",
+        "check_red_bold.svg",
+        "closecircleIcon.svg",
+        "cross_with_line.svg",
+        "database_icon.svg",
+        "dotted_trend_primary_blue.svg",
+        "dotted_trend_primary_dark_blue.svg",
+        "dotted_trend_primary_gray_3.svg",
+        "dotted_trend_primary_green.svg",
+        "dotted_trend_primary_orange.svg",
+        "dotted_trend_primary_white.svg",
+        "dotted_trend_primary_yellow.svg",
+        "elips_loader.svg",
+        "emailIcon.svg",
+        "gray_cross.svg",
+        "green_check.svg",
+        "historic.svg",
+        "line_chart.svg",
+        "loaderGray.svg",
+        "ods_arrows.svg",
+        "plants_color_icon.svg",
+        "red_cross.svg",
+        "red_delete_icon.svg",
+        "scatter_plot.svg",
+        "tabsImg.svg",
+        "tabsImgActive.svg",
+        "timeInfo.svg",
+        "timeinfo_blue.svg",
+        "tren_up_dotted.svg",
+        "warning.svg",
+        "white_warning.svg",
+        "workprogress.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Common/area_chart.svg",
+          "id": "f85c3375023ef300ec62caa22bc0c3ce"
+        },
+        {
+          "path": "assets/Common/bar_chart.svg",
+          "id": "625cbdc8fb0237dd1965d233bb191304"
+        },
+        {
+          "path": "assets/Common/bin.svg",
+          "id": "53ae3ca654bdf9b808dc8f7cec860c6b"
+        },
+        {
+          "path": "assets/Common/bin_blue.svg",
+          "id": "8e457c91e8d2b437439988f0650c714b"
+        },
+        {
+          "path": "assets/Common/blue_clock_icon_gray_background.png",
+          "id": "fcc8f904066e7729323a2e4ad0880d64"
+        },
+        {
+          "path": "assets/Common/blue_download_icon.svg",
+          "id": "161822f7528b842bc3c161d41761ad0b"
+        },
+        {
+          "path": "assets/Common/blue_usericon_gray_background.svg",
+          "id": "b58fed516dd8ec1fd0947747f09ecda3"
+        },
+        {
+          "path": "assets/Common/blue_warning.svg",
+          "id": "8e891e93ee81e211cc0d2a3df2758a97"
+        },
+        {
+          "path": "assets/Common/breadcrumb_separator.svg",
+          "id": "177494f5983ebbd4965ace837ee399bc"
+        },
+        {
+          "path": "assets/Common/check.svg",
+          "id": "a0805d0d848bf600606491e84e57c461"
+        },
+        {
+          "path": "assets/Common/check_green_bold.svg",
+          "id": "059277feaf81d7d717d172d84c9e4da4"
+        },
+        {
+          "path": "assets/Common/check_red_bold.svg",
+          "id": "b5da6f951db88080238dc15bf9aff6ea"
+        },
+        {
+          "path": "assets/Common/closecircleIcon.svg",
+          "id": "df8dc51c531ab0291de15f75d0fa71b5"
+        },
+        {
+          "path": "assets/Common/cross_with_line.svg",
+          "id": "da0bf57486c332a2ff79750c1af7be5d"
+        },
+        {
+          "path": "assets/Common/database_icon.svg",
+          "id": "e5628253a3834f643315b2394962ea3e"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_blue.svg",
+          "id": "191c3448e9acee0e7805e6a22f12e38b"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_dark_blue.svg",
+          "id": "f831f9f39bfa6265e04f87cd972f3a15"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_gray_3.svg",
+          "id": "17f34d24ee9552be022383efa4a33ce9"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_green.svg",
+          "id": "4a980945eeacc358ab8f922a404bf0b5"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_orange.svg",
+          "id": "7e5ed32f7b1f79298aa2fe1829c52746"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_white.svg",
+          "id": "26e1f861592f72cb2d6a56ec62ea27c4"
+        },
+        {
+          "path": "assets/Common/dotted_trend_primary_yellow.svg",
+          "id": "db1a59354edb4b36012a3a4ccc15effc"
+        },
+        {
+          "path": "assets/Common/elips_loader.svg",
+          "id": "9100af7ddeb2d5b1495a9eaceee0807a"
+        },
+        {
+          "path": "assets/Common/emailIcon.svg",
+          "id": "5b2345deccd5a0821e7faeb64c2ebe6b"
+        },
+        {
+          "path": "assets/Common/gray_cross.svg",
+          "id": "08386c3dd2427dd78909a9b90fb0f234"
+        },
+        {
+          "path": "assets/Common/green_check.svg",
+          "id": "5872120205542b7c00454bac2dda197e"
+        },
+        {
+          "path": "assets/Common/historic.svg",
+          "id": "6188a5dac8d86f7bf8e62707e0d142d1"
+        },
+        {
+          "path": "assets/Common/line_chart.svg",
+          "id": "f7492906a35d41a5972ef7b6cbcb8b8b"
+        },
+        {
+          "path": "assets/Common/loaderGray.svg",
+          "id": "4d5062ea7d98460b7caed3642d78dfb5"
+        },
+        {
+          "path": "assets/Common/ods_arrows.svg",
+          "id": "83380f2422ca2925b0f208d763d0268e"
+        },
+        {
+          "path": "assets/Common/plants_color_icon.svg",
+          "id": "8a5f84ed15f0de8a21ff1529dc089f16"
+        },
+        {
+          "path": "assets/Common/red_cross.svg",
+          "id": "29c0680d428c4dcf126e739c235c621b"
+        },
+        {
+          "path": "assets/Common/red_delete_icon.svg",
+          "id": "c90d4552a78c831105ca4e48b2328bf9"
+        },
+        {
+          "path": "assets/Common/scatter_plot.svg",
+          "id": "e80027ab811d47896243e36715c5b0a5"
+        },
+        {
+          "path": "assets/Common/tabsImg.svg",
+          "id": "4ca5b13217d6837e50d8832ebcee176c"
+        },
+        {
+          "path": "assets/Common/tabsImgActive.svg",
+          "id": "816219a73dd6db4617896248de924a4d"
+        },
+        {
+          "path": "assets/Common/timeInfo.svg",
+          "id": "e9cf1e1ff9484aad41d48d9475396ea9"
+        },
+        {
+          "path": "assets/Common/timeinfo_blue.svg",
+          "id": "e686ce8c97c1ed0f73649f94b85a4f53"
+        },
+        {
+          "path": "assets/Common/tren_up_dotted.svg",
+          "id": "8d07a5d1a1abfb8032c9cf0d8a069d54"
+        },
+        {
+          "path": "assets/Common/warning.svg",
+          "id": "e40821dd98d9de0470fda6a7918960db"
+        },
+        {
+          "path": "assets/Common/white_warning.svg",
+          "id": "e2a64b09650c418951edb91df17f7e45"
+        },
+        {
+          "path": "assets/Common/workprogress.svg",
+          "id": "bc1ccee3a240f2b1c9d190ab9f7e6f19"
+        }
+      ]
+    },
+    {
+      "name": "Status",
+      "tile": "s",
+      "order": [
+        "active.svg",
+        "autoclosed.svg",
+        "closed.svg",
+        "energy.svg",
+        "environment.svg",
+        "generatedAlert.svg",
+        "implemented.svg",
+        "overdue.svg",
+        "pending.svg",
+        "progressalert.svg",
+        "rejected.svg",
+        "view_arrow_icon.svg",
+        "view_arrow_icon_2color.svg",
+        "work_in_progress.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Status/active.svg",
+          "id": "0b03ec25ca170718ff7a061c6d34384b"
+        },
+        {
+          "path": "assets/Status/autoclosed.svg",
+          "id": "72e310e2bcf3a485d8dacbd389cc0a70"
+        },
+        {
+          "path": "assets/Status/closed.svg",
+          "id": "a5a772ea90929038b9069b81ec0008ec"
+        },
+        {
+          "path": "assets/Status/energy.svg",
+          "id": "74febc960c367f7d6e84ce748795a30f"
+        },
+        {
+          "path": "assets/Status/environment.svg",
+          "id": "9f1eb082a511093490cf142b5a85bef3"
+        },
+        {
+          "path": "assets/Status/generatedAlert.svg",
+          "id": "df2af49b02625a28805d5f591a076a0a"
+        },
+        {
+          "path": "assets/Status/implemented.svg",
+          "id": "e44311a58c8a34714198d0addbcbf2e8"
+        },
+        {
+          "path": "assets/Status/overdue.svg",
+          "id": "d52210965e6ead3ffd3f332d813477bb"
+        },
+        {
+          "path": "assets/Status/pending.svg",
+          "id": "d6d49ab5128a198a6194e7e2f3db1075"
+        },
+        {
+          "path": "assets/Status/progressalert.svg",
+          "id": "16d4067d6dffcc367ac3f581447921f1"
+        },
+        {
+          "path": "assets/Status/rejected.svg",
+          "id": "d76a97f5c6cb4001a0846add92e63ba8"
+        },
+        {
+          "path": "assets/Status/view_arrow_icon.svg",
+          "id": "0d502ac2544204f0caf02811bfb4180d"
+        },
+        {
+          "path": "assets/Status/view_arrow_icon_2color.svg",
+          "id": "1e08aa34c69a3de35213a72e58106874"
+        },
+        {
+          "path": "assets/Status/work_in_progress.svg",
+          "id": "eb52226c9cec10fd6a0dd8c04423c108"
+        }
+      ]
+    },
+    {
+      "name": "Tables",
+      "tile": "s",
+      "order": [
+        "arrow_left.svg",
+        "arrow_right.svg",
+        "chart_view_icon.svg",
+        "collpsed_image.svg",
+        "downDirecrionIcon.svg",
+        "Expand_image.svg",
+        "table_minus_icon.svg",
+        "table_plus_icon.svg",
+        "table_plus_icon_without_space.svg",
+        "table_view_icon.svg",
+        "view_transpose_icon.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Tables/arrow_left.svg",
+          "id": "77ff0b36c7e127f49b1c60a28dab92a6"
+        },
+        {
+          "path": "assets/Tables/arrow_right.svg",
+          "id": "0292c4bc50f3413fae66c8a24a353f45"
+        },
+        {
+          "path": "assets/Tables/chart_view_icon.svg",
+          "id": "32ba15ed99d024dfc082a170ad34a81f"
+        },
+        {
+          "path": "assets/Tables/collpsed_image.svg",
+          "id": "7a83cbd42bd941e361083dafc0119bba"
+        },
+        {
+          "path": "assets/Tables/downDirecrionIcon.svg",
+          "id": "3d8cefc0fecded607b43dc1ec52895cc"
+        },
+        {
+          "path": "assets/Tables/Expand_image.svg",
+          "id": "f3a1f52e238b34d7cb284cabde38a3ea"
+        },
+        {
+          "path": "assets/Tables/table_minus_icon.svg",
+          "id": "8988839769b05390e38f10191b144982"
+        },
+        {
+          "path": "assets/Tables/table_plus_icon.svg",
+          "id": "17a91f7cdb95c1d24c2c0f531e529aaa"
+        },
+        {
+          "path": "assets/Tables/table_plus_icon_without_space.svg",
+          "id": "dd91e9556646935a1d31e6c5d6c9bb3c"
+        },
+        {
+          "path": "assets/Tables/table_view_icon.svg",
+          "id": "d7158cea3bdda2062197670b37aaeacf"
+        },
+        {
+          "path": "assets/Tables/view_transpose_icon.svg",
+          "id": "3f4750643106dd0446d7096f4f6ec96f"
+        }
+      ]
+    },
+    {
+      "name": "FileTypes",
+      "tile": "s",
+      "order": [
+        "excelFile_icon.svg",
+        "folder_icon.svg",
+        "htmlFile_icon.svg",
+        "pdfFile_icon.svg",
+        "pptFile_icon.svg",
+        "txtFile_icon.svg",
+        "unknownFile_icon.svg",
+        "videoFile_icon.svg",
+        "wordFile_icon.svg",
+        "zipFile_icon.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/FileTypes/excelFile_icon.svg",
+          "id": "f5a5f0965da29a7e7b59e11f0cac0ca5"
+        },
+        {
+          "path": "assets/FileTypes/folder_icon.svg",
+          "id": "2f5243db3d581428b2bda4005f0794cc"
+        },
+        {
+          "path": "assets/FileTypes/htmlFile_icon.svg",
+          "id": "ed342372d80aa8b75d5126fa701c37fe"
+        },
+        {
+          "path": "assets/FileTypes/pdfFile_icon.svg",
+          "id": "fe6697fadae6694e7e034e43dd2f83ac"
+        },
+        {
+          "path": "assets/FileTypes/pptFile_icon.svg",
+          "id": "60c435bd169600e1d88d7c9446c54b32"
+        },
+        {
+          "path": "assets/FileTypes/txtFile_icon.svg",
+          "id": "ea24f13748cec3469f9e7348c34ca415"
+        },
+        {
+          "path": "assets/FileTypes/unknownFile_icon.svg",
+          "id": "9aaa62764cf7d0d5b758e3fa8da93651"
+        },
+        {
+          "path": "assets/FileTypes/videoFile_icon.svg",
+          "id": "ffc2033409198b0f1f13a226900c86a9"
+        },
+        {
+          "path": "assets/FileTypes/wordFile_icon.svg",
+          "id": "dc9d905934b45c6d1d21c946c358dec4"
+        },
+        {
+          "path": "assets/FileTypes/zipFile_icon.svg",
+          "id": "f4258e3a9882e4e396706bc1ae24be32"
+        }
+      ]
+    },
+    {
+      "name": "Affiliates",
+      "order": [
+        "1200.svg",
+        "1300.svg",
+        "1400.svg",
+        "1500.svg",
+        "1600.svg",
+        "1800.svg",
+        "1900.svg",
+        "2000.svg",
+        "2200.svg",
+        "3300.svg",
+        "4000.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Affiliates/1200.svg",
+          "id": "6be2f3ccfd46a6478ec8d8f3f848682c"
+        },
+        {
+          "path": "assets/Affiliates/1300.svg",
+          "id": "a3d480f2fc5493991f6e1a153fdba5b4"
+        },
+        {
+          "path": "assets/Affiliates/1400.svg",
+          "id": "71b601863b15003a1546b943a99700ef"
+        },
+        {
+          "path": "assets/Affiliates/1500.svg",
+          "id": "de3801db8172459997f21cbc9d4451f9"
+        },
+        {
+          "path": "assets/Affiliates/1600.svg",
+          "id": "649fd1280490c8468461ccb6e187db8b"
+        },
+        {
+          "path": "assets/Affiliates/1800.svg",
+          "id": "eb8da609842a8b718b93fb3df80de8b0"
+        },
+        {
+          "path": "assets/Affiliates/1900.svg",
+          "id": "6e123d94913bf65b3fe6f7b8f6f4fefe"
+        },
+        {
+          "path": "assets/Affiliates/2000.svg",
+          "id": "653fce47d40f815aa6696fab5941fe88"
+        },
+        {
+          "path": "assets/Affiliates/2200.svg",
+          "id": "8feab80bc4b74fbcdc2182bbaad3f34b"
+        },
+        {
+          "path": "assets/Affiliates/3300.svg",
+          "id": "1279da37ffd59a0d5f51d4dcafd0bb8a"
+        },
+        {
+          "path": "assets/Affiliates/4000.svg",
+          "id": "7c76b8b3d133b9f62318c328846dbe3a"
+        }
+      ]
+    },
+    {
+      "name": "Loaders",
+      "order": [
+        "blockShuffle.svg",
+        "dots.svg",
+        "download.gif",
+        "loader_1.svg",
+        "loader_2.svg",
+        "loader_3.svg",
+        "loader_4.svg",
+        "loader_5.svg",
+        "notification_red_bell_icon.gif",
+        "notification_yellow_bell_icon.gif",
+        "pulseMultiple.svg",
+        "retrain_loader.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Loaders/blockShuffle.svg",
+          "id": "0b7cc4b8a2e1d83ca155f72fd2d8c308"
+        },
+        {
+          "path": "assets/Loaders/dots.svg",
+          "id": "970620fca6d26608d9e90976064d57fe"
+        },
+        {
+          "path": "assets/Loaders/download.gif",
+          "id": "91970975f305487903ede07221848acd"
+        },
+        {
+          "path": "assets/Loaders/loader_1.svg",
+          "id": "6a354de3cb6c2a6b88ecebcc112e6cb4"
+        },
+        {
+          "path": "assets/Loaders/loader_2.svg",
+          "id": "36389e6b70a26edb259ca5e8f801b937"
+        },
+        {
+          "path": "assets/Loaders/loader_3.svg",
+          "id": "a37808bf3974bc0e16c647c86ae82aeb"
+        },
+        {
+          "path": "assets/Loaders/loader_4.svg",
+          "id": "74669809798162506608d34d0b7cb4fa"
+        },
+        {
+          "path": "assets/Loaders/loader_5.svg",
+          "id": "a9faaa0dd26ebebc0a9212e7be6042ba"
+        },
+        {
+          "path": "assets/Loaders/notification_red_bell_icon.gif",
+          "id": "7c2c477e196c603fc62f10b8d87d5377"
+        },
+        {
+          "path": "assets/Loaders/notification_yellow_bell_icon.gif",
+          "id": "9bbee2e7710cdc5c9df3c0deb8921ca9"
+        },
+        {
+          "path": "assets/Loaders/pulseMultiple.svg",
+          "id": "768d0e02e51ec2066b7d1aa746af639d"
+        },
+        {
+          "path": "assets/Loaders/retrain_loader.svg",
+          "id": "2f23813a9b4ab9c2c5d292caa5d28be8"
+        }
+      ]
+    },
+    {
+      "name": "Maps",
+      "tile": "l",
+      "order": [
+        "america_region_map.svg",
+        "eu_region_map.svg",
+        "mea_region_map.png",
+        "world_map_svg.png"
+      ],
+      "files": [
+        {
+          "path": "assets/Maps/america_region_map.svg",
+          "id": "5915f4ebe33b2e0e1496bf7edc773f93"
+        },
+        {
+          "path": "assets/Maps/eu_region_map.svg",
+          "id": "304062e467d6775d4e9acc50ed7464c1"
+        },
+        {
+          "path": "assets/Maps/mea_region_map.png",
+          "id": "1b2dff46be6dfbc73daa8d5ab968840a"
+        },
+        {
+          "path": "assets/Maps/world_map_svg.png",
+          "id": "31518fc511705ac2cae8ffea724dbdd2"
+        }
+      ]
+    },
+    {
+      "name": "Screens",
+      "tile": "l",
+      "order": [
+        "admin_workflow_addbusinessuser.PNG",
+        "admin_workflow_settings.PNG",
+        "alert_management_overduealerts.PNG",
+        "alert_management_pendingalerts.PNG",
+        "alert_management_trend.PNG",
+        "alert_management_workflowmodal.PNG",
+        "calc_tree_diagram.PNG",
+        "config_bm_dm_edit.PNG",
+        "config_bm_dm_info.PNG",
+        "config_casedetail_info.PNG",
+        "config_casedetails_edit.PNG",
+        "config_clean_addrowbtn.PNG",
+        "config_lbm_iteration_edit.PNG",
+        "config_pipeline_edit.PNG",
+        "config_suggestion_edit.PNG",
+        "config_suggestion_info.PNG",
+        "config_tags_edit.PNG",
+        "config_tags_info.PNG",
+        "errorlogging_editbtn.PNG",
+        "errorlogging_sessionid.PNG",
+        "healthcheck_piconn_aihub_jobagent_trend.PNG",
+        "healthcheck_pistatustrend.PNG",
+        "inbox_workflow_autodeligate.PNG",
+        "inbox_workflowmodal.PNG",
+        "model_details.PNG",
+        "muteAlertInfo.PNG",
+        "no_image_icon.png",
+        "operations_piechart.PNG",
+        "operations_viewdetail.PNG",
+        "opportunity_trend.PNG",
+        "optimization_objective.PNG",
+        "overview_kpi_details.PNG",
+        "overview_kpi_sorting.PNG",
+        "overview_kpi_trends.PNG",
+        "overview_toptile_actions.PNG",
+        "overview_toptile_trend.PNG",
+        "plant_monthlyUtilizationReport.PNG",
+        "plantlist.PNG",
+        "solution_live_status.PNG",
+        "systemlist.PNG",
+        "userstatistics_affiliatewise.PNG",
+        "userstatistics_daywise.PNG",
+        "vc_addspanwindow.PNG",
+        "vc_addtags.PNG",
+        "vc_businessimpact_e_trend.PNG",
+        "vc_businessimpact_p_trend.PNG",
+        "vc_businessimpact_pe_trend.PNG",
+        "vc_editspanmodal.PNG",
+        "vc_infomodal.PNG",
+        "workflow_adduser.PNG",
+        "workflow_midifyuser.PNG"
+      ],
+      "files": [
+        {
+          "path": "assets/Screens/admin_workflow_addbusinessuser.PNG",
+          "id": "c9af2c3d2484218935161727a405e2db"
+        },
+        {
+          "path": "assets/Screens/admin_workflow_settings.PNG",
+          "id": "5a5634c528dc70d866cab576a0369285"
+        },
+        {
+          "path": "assets/Screens/alert_management_overduealerts.PNG",
+          "id": "687f1db62bcbfae8c8aaadfc3402efae"
+        },
+        {
+          "path": "assets/Screens/alert_management_pendingalerts.PNG",
+          "id": "9e8d62b286447c71b86e8039073b636e"
+        },
+        {
+          "path": "assets/Screens/alert_management_trend.PNG",
+          "id": "2039cadfb4644ef9511aedd6b5cd6e29"
+        },
+        {
+          "path": "assets/Screens/alert_management_workflowmodal.PNG",
+          "id": "aa6598360c652d544e26f18007139839"
+        },
+        {
+          "path": "assets/Screens/calc_tree_diagram.PNG",
+          "id": "edea1d1072c61ac4a9050680422fd310"
+        },
+        {
+          "path": "assets/Screens/config_bm_dm_edit.PNG",
+          "id": "4eec56ea5aa912d2a439923870dd57ed"
+        },
+        {
+          "path": "assets/Screens/config_bm_dm_info.PNG",
+          "id": "d8da922d0dd13b4a443514a577a70c27"
+        },
+        {
+          "path": "assets/Screens/config_casedetail_info.PNG",
+          "id": "76d1d60384b534bc9bf174bdf7792647"
+        },
+        {
+          "path": "assets/Screens/config_casedetails_edit.PNG",
+          "id": "59ca9c5e452bd7edf7e894cc058538d4"
+        },
+        {
+          "path": "assets/Screens/config_clean_addrowbtn.PNG",
+          "id": "2c788ded5277364def4ced42230f138f"
+        },
+        {
+          "path": "assets/Screens/config_lbm_iteration_edit.PNG",
+          "id": "b1c8f503081bc1e9483156273c3bf1d3"
+        },
+        {
+          "path": "assets/Screens/config_pipeline_edit.PNG",
+          "id": "6e074956fd939fb1997f2b1fb4897edc"
+        },
+        {
+          "path": "assets/Screens/config_suggestion_edit.PNG",
+          "id": "eff9752debcf2c28976958f1c38efea4"
+        },
+        {
+          "path": "assets/Screens/config_suggestion_info.PNG",
+          "id": "21a83affe2a5ae625da7cee55927cb16"
+        },
+        {
+          "path": "assets/Screens/config_tags_edit.PNG",
+          "id": "4d133179ee0097bc188bbd136c4a952a"
+        },
+        {
+          "path": "assets/Screens/config_tags_info.PNG",
+          "id": "de2c92f25645ea6a182abb8ed164ce7a"
+        },
+        {
+          "path": "assets/Screens/errorlogging_editbtn.PNG",
+          "id": "5114c570337073e075b68b21493601f8"
+        },
+        {
+          "path": "assets/Screens/errorlogging_sessionid.PNG",
+          "id": "ee1e371aaa555100dbb8fdb66ec581fe"
+        },
+        {
+          "path": "assets/Screens/healthcheck_piconn_aihub_jobagent_trend.PNG",
+          "id": "f232e62b04b47695d049b6dd9ba3fe7e"
+        },
+        {
+          "path": "assets/Screens/healthcheck_pistatustrend.PNG",
+          "id": "32ab8560e12a0e7e5a874dddc000f8dd"
+        },
+        {
+          "path": "assets/Screens/inbox_workflow_autodeligate.PNG",
+          "id": "3966a4183f2b77e000e326e403182e43"
+        },
+        {
+          "path": "assets/Screens/inbox_workflowmodal.PNG",
+          "id": "61f4515e988f723dbc24bce5244ca0cf"
+        },
+        {
+          "path": "assets/Screens/model_details.PNG",
+          "id": "365b3434503458c97599dc8de173f58f"
+        },
+        {
+          "path": "assets/Screens/muteAlertInfo.PNG",
+          "id": "cf4f83d09261953c5702b5cadee5d68e"
+        },
+        {
+          "path": "assets/Screens/no_image_icon.png",
+          "id": "eef0f792564a51fe9149d909bd465915"
+        },
+        {
+          "path": "assets/Screens/operations_piechart.PNG",
+          "id": "9ae5745616ce49c2097393a7c2b59980"
+        },
+        {
+          "path": "assets/Screens/operations_viewdetail.PNG",
+          "id": "d1aa9adffb1a325ce63da790d7bf3510"
+        },
+        {
+          "path": "assets/Screens/opportunity_trend.PNG",
+          "id": "731c4d317f88176ea2ace79cea1421a6"
+        },
+        {
+          "path": "assets/Screens/optimization_objective.PNG",
+          "id": "3bee5a416e8d2453d2a33ead5918e754"
+        },
+        {
+          "path": "assets/Screens/overview_kpi_details.PNG",
+          "id": "ef91cdcc989815c6bc3401b6d175fb93"
+        },
+        {
+          "path": "assets/Screens/overview_kpi_sorting.PNG",
+          "id": "7b9b058306429abef430052d6383cad6"
+        },
+        {
+          "path": "assets/Screens/overview_kpi_trends.PNG",
+          "id": "c88727e026f0cb51f98522dbef8e5c07"
+        },
+        {
+          "path": "assets/Screens/overview_toptile_actions.PNG",
+          "id": "8edf9c76ccd9bebfbc54ad8cd1744f85"
+        },
+        {
+          "path": "assets/Screens/overview_toptile_trend.PNG",
+          "id": "3a3a11214a83c311443e28d97d91f06a"
+        },
+        {
+          "path": "assets/Screens/plant_monthlyUtilizationReport.PNG",
+          "id": "f4c6f4bd933067072f2025027d51bd0a"
+        },
+        {
+          "path": "assets/Screens/plantlist.PNG",
+          "id": "e790140491c6000d9d8c9611b53e0e06"
+        },
+        {
+          "path": "assets/Screens/solution_live_status.PNG",
+          "id": "f6ffa566542705380b1a8a6f982dc8c8"
+        },
+        {
+          "path": "assets/Screens/systemlist.PNG",
+          "id": "72440d6963df08259fc97475bd5e023d"
+        },
+        {
+          "path": "assets/Screens/userstatistics_affiliatewise.PNG",
+          "id": "3ffc3888ab86da7097f252ca2a98c326"
+        },
+        {
+          "path": "assets/Screens/userstatistics_daywise.PNG",
+          "id": "573c76ec5bffb811e0e76395b353bf6e"
+        },
+        {
+          "path": "assets/Screens/vc_addspanwindow.PNG",
+          "id": "a99915863f147f0df5e79511815f53e3"
+        },
+        {
+          "path": "assets/Screens/vc_addtags.PNG",
+          "id": "cd8ce5d4cf1f0090b88bbab816230aba"
+        },
+        {
+          "path": "assets/Screens/vc_businessimpact_e_trend.PNG",
+          "id": "e1c1802197034bb684dd2b0b9dc1a4ea"
+        },
+        {
+          "path": "assets/Screens/vc_businessimpact_p_trend.PNG",
+          "id": "b736fcc032df8a0cf23e47795ca130a7"
+        },
+        {
+          "path": "assets/Screens/vc_businessimpact_pe_trend.PNG",
+          "id": "104db3292fdb2bce08e67ed8933be51a"
+        },
+        {
+          "path": "assets/Screens/vc_editspanmodal.PNG",
+          "id": "a4fe5715a71bcd02cebac6ead6b54751"
+        },
+        {
+          "path": "assets/Screens/vc_infomodal.PNG",
+          "id": "a96adc80bddef9f26ffd757b96218494"
+        },
+        {
+          "path": "assets/Screens/workflow_adduser.PNG",
+          "id": "d26ae49f36c440e201750442b9831dc2"
+        },
+        {
+          "path": "assets/Screens/workflow_midifyuser.PNG",
+          "id": "8b0d54bdbe26fcc8e3a1a935af3f2853"
+        }
+      ]
+    },
+    {
+      "name": "IconFont",
+      "tile": "s"
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Affiliates/1200.svg": {
+        "store": "blob",
+        "id": "6be2f3ccfd46a6478ec8d8f3f848682c",
+        "bytes": 7919,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1300.svg": {
+        "store": "blob",
+        "id": "a3d480f2fc5493991f6e1a153fdba5b4",
+        "bytes": 8369,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1400.svg": {
+        "store": "blob",
+        "id": "71b601863b15003a1546b943a99700ef",
+        "bytes": 8444,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1500.svg": {
+        "store": "blob",
+        "id": "de3801db8172459997f21cbc9d4451f9",
+        "bytes": 8353,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1600.svg": {
+        "store": "blob",
+        "id": "649fd1280490c8468461ccb6e187db8b",
+        "bytes": 10020,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1800.svg": {
+        "store": "blob",
+        "id": "eb8da609842a8b718b93fb3df80de8b0",
+        "bytes": 8168,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/1900.svg": {
+        "store": "blob",
+        "id": "6e123d94913bf65b3fe6f7b8f6f4fefe",
+        "bytes": 16807,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/2000.svg": {
+        "store": "blob",
+        "id": "653fce47d40f815aa6696fab5941fe88",
+        "bytes": 14983,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/2200.svg": {
+        "store": "blob",
+        "id": "8feab80bc4b74fbcdc2182bbaad3f34b",
+        "bytes": 8632,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/3300.svg": {
+        "store": "blob",
+        "id": "1279da37ffd59a0d5f51d4dcafd0bb8a",
+        "bytes": 12931,
+        "type": "image/svg+xml"
+      },
+      "assets/Affiliates/4000.svg": {
+        "store": "blob",
+        "id": "7c76b8b3d133b9f62318c328846dbe3a",
+        "bytes": 18494,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/area_chart.svg": {
+        "store": "blob",
+        "id": "f85c3375023ef300ec62caa22bc0c3ce",
+        "bytes": 419,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/bar_chart.svg": {
+        "store": "blob",
+        "id": "625cbdc8fb0237dd1965d233bb191304",
+        "bytes": 726,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/bin.svg": {
+        "store": "blob",
+        "id": "53ae3ca654bdf9b808dc8f7cec860c6b",
+        "bytes": 1136,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/bin_blue.svg": {
+        "store": "blob",
+        "id": "8e457c91e8d2b437439988f0650c714b",
+        "bytes": 1134,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/blue_clock_icon_gray_background.png": {
+        "store": "blob",
+        "id": "fcc8f904066e7729323a2e4ad0880d64",
+        "bytes": 6086,
+        "type": "image/png"
+      },
+      "assets/Common/blue_download_icon.svg": {
+        "store": "blob",
+        "id": "161822f7528b842bc3c161d41761ad0b",
+        "bytes": 650,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/blue_usericon_gray_background.svg": {
+        "store": "blob",
+        "id": "b58fed516dd8ec1fd0947747f09ecda3",
+        "bytes": 1386,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/blue_warning.svg": {
+        "store": "blob",
+        "id": "8e891e93ee81e211cc0d2a3df2758a97",
+        "bytes": 2151,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/breadcrumb_separator.svg": {
+        "store": "blob",
+        "id": "177494f5983ebbd4965ace837ee399bc",
+        "bytes": 421,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/check.svg": {
+        "store": "blob",
+        "id": "a0805d0d848bf600606491e84e57c461",
+        "bytes": 221,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/check_green_bold.svg": {
+        "store": "blob",
+        "id": "059277feaf81d7d717d172d84c9e4da4",
+        "bytes": 230,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/check_red_bold.svg": {
+        "store": "blob",
+        "id": "b5da6f951db88080238dc15bf9aff6ea",
+        "bytes": 329,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/closecircleIcon.svg": {
+        "store": "blob",
+        "id": "df8dc51c531ab0291de15f75d0fa71b5",
+        "bytes": 709,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/cross_with_line.svg": {
+        "store": "blob",
+        "id": "da0bf57486c332a2ff79750c1af7be5d",
+        "bytes": 245,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/database_icon.svg": {
+        "store": "blob",
+        "id": "e5628253a3834f643315b2394962ea3e",
+        "bytes": 5440,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_blue.svg": {
+        "store": "blob",
+        "id": "191c3448e9acee0e7805e6a22f12e38b",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_dark_blue.svg": {
+        "store": "blob",
+        "id": "f831f9f39bfa6265e04f87cd972f3a15",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_gray_3.svg": {
+        "store": "blob",
+        "id": "17f34d24ee9552be022383efa4a33ce9",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_green.svg": {
+        "store": "blob",
+        "id": "4a980945eeacc358ab8f922a404bf0b5",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_orange.svg": {
+        "store": "blob",
+        "id": "7e5ed32f7b1f79298aa2fe1829c52746",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_white.svg": {
+        "store": "blob",
+        "id": "26e1f861592f72cb2d6a56ec62ea27c4",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/dotted_trend_primary_yellow.svg": {
+        "store": "blob",
+        "id": "db1a59354edb4b36012a3a4ccc15effc",
+        "bytes": 318,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/elips_loader.svg": {
+        "store": "blob",
+        "id": "9100af7ddeb2d5b1495a9eaceee0807a",
+        "bytes": 554,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/emailIcon.svg": {
+        "store": "blob",
+        "id": "5b2345deccd5a0821e7faeb64c2ebe6b",
+        "bytes": 1446,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/gray_cross.svg": {
+        "store": "blob",
+        "id": "08386c3dd2427dd78909a9b90fb0f234",
+        "bytes": 325,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/green_check.svg": {
+        "store": "blob",
+        "id": "5872120205542b7c00454bac2dda197e",
+        "bytes": 222,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/historic.svg": {
+        "store": "blob",
+        "id": "6188a5dac8d86f7bf8e62707e0d142d1",
+        "bytes": 1488,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/line_chart.svg": {
+        "store": "blob",
+        "id": "f7492906a35d41a5972ef7b6cbcb8b8b",
+        "bytes": 483,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/loaderGray.svg": {
+        "store": "blob",
+        "id": "4d5062ea7d98460b7caed3642d78dfb5",
+        "bytes": 400,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/ods_arrows.svg": {
+        "store": "blob",
+        "id": "83380f2422ca2925b0f208d763d0268e",
+        "bytes": 1577,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/plants_color_icon.svg": {
+        "store": "blob",
+        "id": "8a5f84ed15f0de8a21ff1529dc089f16",
+        "bytes": 3944,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/red_cross.svg": {
+        "store": "blob",
+        "id": "29c0680d428c4dcf126e739c235c621b",
+        "bytes": 329,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/red_delete_icon.svg": {
+        "store": "blob",
+        "id": "c90d4552a78c831105ca4e48b2328bf9",
+        "bytes": 1059,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/scatter_plot.svg": {
+        "store": "blob",
+        "id": "e80027ab811d47896243e36715c5b0a5",
+        "bytes": 1300,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/tabsImg.svg": {
+        "store": "blob",
+        "id": "4ca5b13217d6837e50d8832ebcee176c",
+        "bytes": 1119,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/tabsImgActive.svg": {
+        "store": "blob",
+        "id": "816219a73dd6db4617896248de924a4d",
+        "bytes": 1119,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/timeInfo.svg": {
+        "store": "blob",
+        "id": "e9cf1e1ff9484aad41d48d9475396ea9",
+        "bytes": 809,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/timeinfo_blue.svg": {
+        "store": "blob",
+        "id": "e686ce8c97c1ed0f73649f94b85a4f53",
+        "bytes": 810,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/tren_up_dotted.svg": {
+        "store": "blob",
+        "id": "8d07a5d1a1abfb8032c9cf0d8a069d54",
+        "bytes": 1681,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/warning.svg": {
+        "store": "blob",
+        "id": "e40821dd98d9de0470fda6a7918960db",
+        "bytes": 2135,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/white_warning.svg": {
+        "store": "blob",
+        "id": "e2a64b09650c418951edb91df17f7e45",
+        "bytes": 2153,
+        "type": "image/svg+xml"
+      },
+      "assets/Common/workprogress.svg": {
+        "store": "blob",
+        "id": "bc1ccee3a240f2b1c9d190ab9f7e6f19",
+        "bytes": 2080,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/excelFile_icon.svg": {
+        "store": "blob",
+        "id": "f5a5f0965da29a7e7b59e11f0cac0ca5",
+        "bytes": 3923,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/folder_icon.svg": {
+        "store": "blob",
+        "id": "2f5243db3d581428b2bda4005f0794cc",
+        "bytes": 2538,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/htmlFile_icon.svg": {
+        "store": "blob",
+        "id": "ed342372d80aa8b75d5126fa701c37fe",
+        "bytes": 4578,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/pdfFile_icon.svg": {
+        "store": "blob",
+        "id": "fe6697fadae6694e7e034e43dd2f83ac",
+        "bytes": 4349,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/pptFile_icon.svg": {
+        "store": "blob",
+        "id": "60c435bd169600e1d88d7c9446c54b32",
+        "bytes": 1811,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/txtFile_icon.svg": {
+        "store": "blob",
+        "id": "ea24f13748cec3469f9e7348c34ca415",
+        "bytes": 3583,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/unknownFile_icon.svg": {
+        "store": "blob",
+        "id": "9aaa62764cf7d0d5b758e3fa8da93651",
+        "bytes": 1932,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/videoFile_icon.svg": {
+        "store": "blob",
+        "id": "ffc2033409198b0f1f13a226900c86a9",
+        "bytes": 2549,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/wordFile_icon.svg": {
+        "store": "blob",
+        "id": "dc9d905934b45c6d1d21c946c358dec4",
+        "bytes": 2236,
+        "type": "image/svg+xml"
+      },
+      "assets/FileTypes/zipFile_icon.svg": {
+        "store": "blob",
+        "id": "f4258e3a9882e4e396706bc1ae24be32",
+        "bytes": 2519,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/backarrowIcon.svg": {
+        "store": "blob",
+        "id": "be95dc882464e11c3a63a10813b0bdd9",
+        "bytes": 2940,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/calender_gray_icon.svg": {
+        "store": "blob",
+        "id": "64351a2dd61b4e889d3dac83ab49dc8f",
+        "bytes": 3588,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/ecm_icon.svg": {
+        "store": "blob",
+        "id": "34187f5d9ce4e88f8aed826dd8745ed9",
+        "bytes": 1193,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/edit_default_icon.svg": {
+        "store": "blob",
+        "id": "0bf7d85c6787486d78aaf5a47a532d9b",
+        "bytes": 984,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/hangfire_icon.svg": {
+        "store": "blob",
+        "id": "c7e507f060f10c0677a8973b365e8a4b",
+        "bytes": 46261,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/logout.svg": {
+        "store": "blob",
+        "id": "449db32a6b00466cd9f72f7e768aaa98",
+        "bytes": 819,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/notification_icon.svg": {
+        "store": "blob",
+        "id": "8b4a268fdfb50bd72aa672fe075d2eac",
+        "bytes": 2992,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/search_icon.svg": {
+        "store": "blob",
+        "id": "d75349ff43d81fa1fe2da95b9a687619",
+        "bytes": 817,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/super_admin_default.svg": {
+        "store": "blob",
+        "id": "a9416e2fa8a45351b12b9dda48e92bf0",
+        "bytes": 921,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/super_admin_default_bgspace.svg": {
+        "store": "blob",
+        "id": "39ade01debdcc1f4a2490006115fcf6e",
+        "bytes": 963,
+        "type": "image/svg+xml"
+      },
+      "assets/Header/userProfileIcon.svg": {
+        "store": "blob",
+        "id": "4d3ed3669171b88decf26f12b053599b",
+        "bytes": 916,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/Home.svg": {
+        "store": "blob",
+        "id": "31314d51e526c7d41fb82d5504864b15",
+        "bytes": 764,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/Triple_arrow.svg": {
+        "store": "blob",
+        "id": "2e7f15517dc9d64bc66efcb0203ffa77",
+        "bytes": 459,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/actionable_disabled_new_icon.svg": {
+        "store": "blob",
+        "id": "8215cf17802b6075a2afafbab85bc9c7",
+        "bytes": 1019,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/active_deviation_color_icon.svg": {
+        "store": "blob",
+        "id": "30f9fdf7de247da0f94df82261156ec9",
+        "bytes": 2050,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/affiliates.svg": {
+        "store": "blob",
+        "id": "da00f4a062952657c059f79af0965f80",
+        "bytes": 5208,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/affiliates_color_icon.svg": {
+        "store": "blob",
+        "id": "bda9d0678eacfd0daeda362cc983665b",
+        "bytes": 5117,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_down_angel_bracket.svg": {
+        "store": "blob",
+        "id": "ab6d775092299f960ae3f09777b50ca9",
+        "bytes": 231,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_down_blue.svg": {
+        "store": "blob",
+        "id": "988b9c45db741caebd657fab053de1f2",
+        "bytes": 1573,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_down_gray.svg": {
+        "store": "blob",
+        "id": "4e8a03dcf7a615840bc6bc1e3dda85cb",
+        "bytes": 1573,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_icon_down.svg": {
+        "store": "blob",
+        "id": "743584777df9674142622e1ed0daf7fd",
+        "bytes": 195,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_icon_up.svg": {
+        "store": "blob",
+        "id": "7c52fa06d248e2b6b66bea8a59db7219",
+        "bytes": 142,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_right_angel_bracket.svg": {
+        "store": "blob",
+        "id": "75fa6cfdfd6dbe02edfbe47e32f495c3",
+        "bytes": 800,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/arrow_right_angel_bracket_blue.svg": {
+        "store": "blob",
+        "id": "c90d8ac1fee3cb6d4a567381dc083574",
+        "bytes": 800,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/badgeIcon.svg": {
+        "store": "blob",
+        "id": "2f49ea396d37ebcee45bc23131064adf",
+        "bytes": 3355,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/brain_icon.svg": {
+        "store": "blob",
+        "id": "9f1d2555dfb066a25fa33a9e1afef60d",
+        "bytes": 2751,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/calendar_icon.svg": {
+        "store": "blob",
+        "id": "62f90e8cc72b7099f619a3788cad8c80",
+        "bytes": 3588,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/chartToggle.svg": {
+        "store": "blob",
+        "id": "b106d036371812b2c3bf61b752effdcf",
+        "bytes": 14450,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/checkIconwithGreenBg.svg": {
+        "store": "blob",
+        "id": "e7d0120e40398c91be8f6f2ad2ea9505",
+        "bytes": 258,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/co2Reduction_color_icon.svg": {
+        "store": "blob",
+        "id": "50865faecc7877275fe60aa1d3bfb802",
+        "bytes": 4325,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/crossRedIcon.svg": {
+        "store": "blob",
+        "id": "97923e1193aedd14fe111e711bd31f5e",
+        "bytes": 414,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/energyProduction_color_icon.svg": {
+        "store": "blob",
+        "id": "a6dd7b782df6bc83f7c31f55b653245c",
+        "bytes": 3496,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/eyeIcon.svg": {
+        "store": "blob",
+        "id": "924f04aefb3ab3a5319d5e6d9fa271a5",
+        "bytes": 2139,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/furnace_summary_icon.svg": {
+        "store": "blob",
+        "id": "e81e56d13182332a9def6ef114699ae3",
+        "bytes": 2687,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/helpActiveIcon.svg": {
+        "store": "blob",
+        "id": "74c59bc86bd2f6db96d5dc025b92968b",
+        "bytes": 679,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/map.svg": {
+        "store": "blob",
+        "id": "1aae520dab42511da4a657434a86270e",
+        "bytes": 466,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/overdue_deviations.svg": {
+        "store": "blob",
+        "id": "34300242415880e256bb7443452eb767",
+        "bytes": 4423,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/plants.svg": {
+        "store": "blob",
+        "id": "fa41b160706329d60aa2f2158dd39860",
+        "bytes": 3877,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/plants_color_icon.svg": {
+        "store": "blob",
+        "id": "92cb62ab939a1653e4077d76c1b64a62",
+        "bytes": 3944,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/predicted_action2.svg": {
+        "store": "blob",
+        "id": "4c4be28e1601f7554090ed148cb6d88d",
+        "bytes": 2016,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/predicted_action2_gray.svg": {
+        "store": "blob",
+        "id": "92ddf2f87ce65557dffffc55845f8fd6",
+        "bytes": 6873,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/predicted_action3_gray.svg": {
+        "store": "blob",
+        "id": "6fe92c2100529dbe85d83991fef99cce",
+        "bytes": 1302,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/productionGain_color_icon.png": {
+        "store": "blob",
+        "id": "2542a8bbf2620502b1d5c385b403bd1c",
+        "bytes": 13002,
+        "type": "image/png"
+      },
+      "assets/IconsV2/reset_icon.svg": {
+        "store": "blob",
+        "id": "44c08e11ddeb980e9b1dd92a48e0d4cc",
+        "bytes": 2238,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/star_icon.svg": {
+        "store": "blob",
+        "id": "e64952fccf17b81761601ecc6b057cd7",
+        "bytes": 1931,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/start_icon_filled.svg": {
+        "store": "blob",
+        "id": "68345c5d0c0ea2a77486c0bbf62f1ca4",
+        "bytes": 289,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/system_color_icon.svg": {
+        "store": "blob",
+        "id": "cf8ada50ee78b9e34c98299cab4f050a",
+        "bytes": 7553,
+        "type": "image/svg+xml"
+      },
+      "assets/IconsV2/table_view_toggle.svg": {
+        "store": "blob",
+        "id": "468ac4bc91664faaa24c5b73cbd7b72a",
+        "bytes": 3277,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/active_alerts.svg": {
+        "store": "blob",
+        "id": "5d89d3e0cce9d5e570339deef1c9616f",
+        "bytes": 2116,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/affiliates.svg": {
+        "store": "blob",
+        "id": "566c5e093e4f90414dfb2efc44564c06",
+        "bytes": 5233,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/co2_reduction.svg": {
+        "store": "blob",
+        "id": "26545e49d602acfb47320a32643d710a",
+        "bytes": 4214,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/distinctusers.svg": {
+        "store": "blob",
+        "id": "b43e909360d2de352485627d9c7c83cd",
+        "bytes": 5211,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/energy_red.svg": {
+        "store": "blob",
+        "id": "33f83df24b2b7b713ab34c6c063eb925",
+        "bytes": 3525,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/overdue_alerts.svg": {
+        "store": "blob",
+        "id": "d8708c4ea347ba788ee5e9919dcce0e9",
+        "bytes": 3495,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/plants.svg": {
+        "store": "blob",
+        "id": "f7c483b77b48c77571eb01062da9c8af",
+        "bytes": 3937,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/production_opp.svg": {
+        "store": "blob",
+        "id": "7d6c46680be79b0432234e4ba824e0a6",
+        "bytes": 6098,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/Sorting.svg": {
+        "store": "blob",
+        "id": "15ac21c842a3fa61be936714c970f49c",
+        "bytes": 4558,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/active_deviations.svg": {
+        "store": "blob",
+        "id": "eaf95110ed6ccad4baf0fc1063c5fd8a",
+        "bytes": 2054,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/energy_efficiency.svg": {
+        "store": "blob",
+        "id": "1a77046868dc9cf04a1fdbf8495222fc",
+        "bytes": 3461,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/environment_efficiency.svg": {
+        "store": "blob",
+        "id": "8ed834b6b99818642d5ff7f308245eb9",
+        "bytes": 4132,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/process_efficiency.svg": {
+        "store": "blob",
+        "id": "efedbc9e548722d91021afbfdb43a73e",
+        "bytes": 6028,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/system/production_opp.svg": {
+        "store": "blob",
+        "id": "6f7f310c207f75b8879bc6e1de7119a5",
+        "bytes": 6028,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_affiliates.svg": {
+        "store": "blob",
+        "id": "fa5b0bd9bf519a55de5a42028b75c34f",
+        "bytes": 2592,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_co2_reduction.svg": {
+        "store": "blob",
+        "id": "dc783239c0bd3a9bb8ffe983f1051575",
+        "bytes": 1591,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_energy_production.svg": {
+        "store": "blob",
+        "id": "aba93eb61e0df3a9640a1a68d21b0fe7",
+        "bytes": 2012,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_plants.svg": {
+        "store": "blob",
+        "id": "b72b37fcbc43c3e71fb4ae2497c5be15",
+        "bytes": 2384,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_production_gain.svg": {
+        "store": "blob",
+        "id": "cc043856d08b90ca29b2157b794805c8",
+        "bytes": 6127,
+        "type": "image/svg+xml"
+      },
+      "assets/KPIs/tooltip/tool_tip_systems.svg": {
+        "store": "blob",
+        "id": "7e5e2d79501cc62ee6f2d6d8279c7e2d",
+        "bytes": 2090,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/blockShuffle.svg": {
+        "store": "blob",
+        "id": "0b7cc4b8a2e1d83ca155f72fd2d8c308",
+        "bytes": 388,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/dots.svg": {
+        "store": "blob",
+        "id": "970620fca6d26608d9e90976064d57fe",
+        "bytes": 294,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/download.gif": {
+        "store": "blob",
+        "id": "91970975f305487903ede07221848acd",
+        "bytes": 146652,
+        "type": "image/gif"
+      },
+      "assets/Loaders/loader_1.svg": {
+        "store": "blob",
+        "id": "6a354de3cb6c2a6b88ecebcc112e6cb4",
+        "bytes": 1635,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/loader_2.svg": {
+        "store": "blob",
+        "id": "36389e6b70a26edb259ca5e8f801b937",
+        "bytes": 2103,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/loader_3.svg": {
+        "store": "blob",
+        "id": "a37808bf3974bc0e16c647c86ae82aeb",
+        "bytes": 504,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/loader_4.svg": {
+        "store": "blob",
+        "id": "74669809798162506608d34d0b7cb4fa",
+        "bytes": 2451,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/loader_5.svg": {
+        "store": "blob",
+        "id": "a9faaa0dd26ebebc0a9212e7be6042ba",
+        "bytes": 1130,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/notification_red_bell_icon.gif": {
+        "store": "blob",
+        "id": "7c2c477e196c603fc62f10b8d87d5377",
+        "bytes": 58981,
+        "type": "image/gif"
+      },
+      "assets/Loaders/notification_yellow_bell_icon.gif": {
+        "store": "blob",
+        "id": "9bbee2e7710cdc5c9df3c0deb8921ca9",
+        "bytes": 55360,
+        "type": "image/gif"
+      },
+      "assets/Loaders/pulseMultiple.svg": {
+        "store": "blob",
+        "id": "768d0e02e51ec2066b7d1aa746af639d",
+        "bytes": 295,
+        "type": "image/svg+xml"
+      },
+      "assets/Loaders/retrain_loader.svg": {
+        "store": "blob",
+        "id": "2f23813a9b4ab9c2c5d292caa5d28be8",
+        "bytes": 342,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/plant_efficiency_header_logo.png": {
+        "store": "blob",
+        "id": "5b1c585b96d8cc9ab3f35c98b0df5028",
+        "bytes": 13355,
+        "type": "image/png"
+      },
+      "assets/Logos/sabic_logo.svg": {
+        "store": "blob",
+        "id": "178b2314a73f58773c182bc5ea7074fc",
+        "bytes": 3231,
+        "type": "image/svg+xml"
+      },
+      "assets/Maps/america_region_map.svg": {
+        "store": "blob",
+        "id": "5915f4ebe33b2e0e1496bf7edc773f93",
+        "bytes": 313071,
+        "type": "image/svg+xml"
+      },
+      "assets/Maps/eu_region_map.svg": {
+        "store": "blob",
+        "id": "304062e467d6775d4e9acc50ed7464c1",
+        "bytes": 21603,
+        "type": "image/svg+xml"
+      },
+      "assets/Maps/mea_region_map.png": {
+        "store": "blob",
+        "id": "1b2dff46be6dfbc73daa8d5ab968840a",
+        "bytes": 80084,
+        "type": "image/png"
+      },
+      "assets/Maps/world_map_svg.png": {
+        "store": "blob",
+        "id": "31518fc511705ac2cae8ffea724dbdd2",
+        "bytes": 126608,
+        "type": "image/png"
+      },
+      "assets/Navigation/arrow_down_angel_bracket.svg": {
+        "store": "blob",
+        "id": "c6266950e8becb48739ad7d2087aa15c",
+        "bytes": 231,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/bookmark_icon.svg": {
+        "store": "blob",
+        "id": "0370fade143f26190d403d31ccfffbdd",
+        "bytes": 376,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/bookmark_icon_filled.svg": {
+        "store": "blob",
+        "id": "4f47eb3e9de2bc149e9e503e136022a3",
+        "bytes": 483,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/camera_icon.svg": {
+        "store": "blob",
+        "id": "6bb4a711e0376cd8de53dd88d0a4eadf",
+        "bytes": 891,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/circlearrowIcon.svg": {
+        "store": "blob",
+        "id": "590444e5db8f9c09634e04eb9991ae3d",
+        "bytes": 760,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/crackingIcon.svg": {
+        "store": "blob",
+        "id": "eb5020a22c1b18e5c1139a089aec5025",
+        "bytes": 2788,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/decok.svg": {
+        "store": "blob",
+        "id": "0b6cf5e55fdae52e8abb28448ee35dde",
+        "bytes": 1549,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/download_icon.svg": {
+        "store": "blob",
+        "id": "36883a35ba5ca7918c5e282352ee0280",
+        "bytes": 707,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/expand_icon.svg": {
+        "store": "blob",
+        "id": "6c6fd14a2e61458bdcf67c791b5fbdc6",
+        "bytes": 3470,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/folder.svg": {
+        "store": "blob",
+        "id": "36f6c246cf20de7a496520d1aecbc01a",
+        "bytes": 1151,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/health_check_report.svg": {
+        "store": "blob",
+        "id": "309767a9b1485ad572fd7ad572adf9fa",
+        "bytes": 1961,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/hss.svg": {
+        "store": "blob",
+        "id": "f6d2795b40b4ff40833ad1bd675d8a42",
+        "bytes": 2664,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/monitoring.svg": {
+        "store": "blob",
+        "id": "2f6f2eec3bdb61d61a3bc441f15ad7c5",
+        "bytes": 1794,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/overview.svg": {
+        "store": "blob",
+        "id": "11df6ea932c14a646ea0a9dbae158059",
+        "bytes": 3145,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/settings.svg": {
+        "store": "blob",
+        "id": "e7d70e9f9c649e2021f652a1ef8ae02a",
+        "bytes": 5013,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/shutdown.svg": {
+        "store": "blob",
+        "id": "0dd2326fdc1016e7247bbbe97d3ef0fa",
+        "bytes": 15944,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/summary.svg": {
+        "store": "blob",
+        "id": "dc56b5de491b3b84d24aaf4730e89cc8",
+        "bytes": 2896,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/triangle_arrow_icon.svg": {
+        "store": "blob",
+        "id": "8838a4f0e6660aebbfad64ab2961d4b1",
+        "bytes": 471,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/view_eye_icon.svg": {
+        "store": "blob",
+        "id": "0653ff4d6c3ed61360f5787b4e8c0fba",
+        "bytes": 503,
+        "type": "image/svg+xml"
+      },
+      "assets/Navigation/walkthrough_open_book_gray.svg": {
+        "store": "blob",
+        "id": "a39490dc7e5ccc625bf62bb28489060d",
+        "bytes": 3380,
+        "type": "image/svg+xml"
+      },
+      "assets/Screens/admin_workflow_addbusinessuser.PNG": {
+        "store": "blob",
+        "id": "c9af2c3d2484218935161727a405e2db",
+        "bytes": 27568,
+        "type": "image/png"
+      },
+      "assets/Screens/admin_workflow_settings.PNG": {
+        "store": "blob",
+        "id": "5a5634c528dc70d866cab576a0369285",
+        "bytes": 44229,
+        "type": "image/png"
+      },
+      "assets/Screens/alert_management_overduealerts.PNG": {
+        "store": "blob",
+        "id": "687f1db62bcbfae8c8aaadfc3402efae",
+        "bytes": 44736,
+        "type": "image/png"
+      },
+      "assets/Screens/alert_management_pendingalerts.PNG": {
+        "store": "blob",
+        "id": "9e8d62b286447c71b86e8039073b636e",
+        "bytes": 36423,
+        "type": "image/png"
+      },
+      "assets/Screens/alert_management_trend.PNG": {
+        "store": "blob",
+        "id": "2039cadfb4644ef9511aedd6b5cd6e29",
+        "bytes": 59767,
+        "type": "image/png"
+      },
+      "assets/Screens/alert_management_workflowmodal.PNG": {
+        "store": "blob",
+        "id": "aa6598360c652d544e26f18007139839",
+        "bytes": 103458,
+        "type": "image/png"
+      },
+      "assets/Screens/calc_tree_diagram.PNG": {
+        "store": "blob",
+        "id": "edea1d1072c61ac4a9050680422fd310",
+        "bytes": 15136,
+        "type": "image/png"
+      },
+      "assets/Screens/config_bm_dm_edit.PNG": {
+        "store": "blob",
+        "id": "4eec56ea5aa912d2a439923870dd57ed",
+        "bytes": 54794,
+        "type": "image/png"
+      },
+      "assets/Screens/config_bm_dm_info.PNG": {
+        "store": "blob",
+        "id": "d8da922d0dd13b4a443514a577a70c27",
+        "bytes": 52657,
+        "type": "image/png"
+      },
+      "assets/Screens/config_casedetail_info.PNG": {
+        "store": "blob",
+        "id": "76d1d60384b534bc9bf174bdf7792647",
+        "bytes": 23289,
+        "type": "image/png"
+      },
+      "assets/Screens/config_casedetails_edit.PNG": {
+        "store": "blob",
+        "id": "59ca9c5e452bd7edf7e894cc058538d4",
+        "bytes": 25335,
+        "type": "image/png"
+      },
+      "assets/Screens/config_clean_addrowbtn.PNG": {
+        "store": "blob",
+        "id": "2c788ded5277364def4ced42230f138f",
+        "bytes": 19036,
+        "type": "image/png"
+      },
+      "assets/Screens/config_lbm_iteration_edit.PNG": {
+        "store": "blob",
+        "id": "b1c8f503081bc1e9483156273c3bf1d3",
+        "bytes": 47208,
+        "type": "image/png"
+      },
+      "assets/Screens/config_pipeline_edit.PNG": {
+        "store": "blob",
+        "id": "6e074956fd939fb1997f2b1fb4897edc",
+        "bytes": 18707,
+        "type": "image/png"
+      },
+      "assets/Screens/config_suggestion_edit.PNG": {
+        "store": "blob",
+        "id": "eff9752debcf2c28976958f1c38efea4",
+        "bytes": 33258,
+        "type": "image/png"
+      },
+      "assets/Screens/config_suggestion_info.PNG": {
+        "store": "blob",
+        "id": "21a83affe2a5ae625da7cee55927cb16",
+        "bytes": 31037,
+        "type": "image/png"
+      },
+      "assets/Screens/config_tags_edit.PNG": {
+        "store": "blob",
+        "id": "4d133179ee0097bc188bbd136c4a952a",
+        "bytes": 63727,
+        "type": "image/png"
+      },
+      "assets/Screens/config_tags_info.PNG": {
+        "store": "blob",
+        "id": "de2c92f25645ea6a182abb8ed164ce7a",
+        "bytes": 59752,
+        "type": "image/png"
+      },
+      "assets/Screens/errorlogging_editbtn.PNG": {
+        "store": "blob",
+        "id": "5114c570337073e075b68b21493601f8",
+        "bytes": 20032,
+        "type": "image/png"
+      },
+      "assets/Screens/errorlogging_sessionid.PNG": {
+        "store": "blob",
+        "id": "ee1e371aaa555100dbb8fdb66ec581fe",
+        "bytes": 129831,
+        "type": "image/png"
+      },
+      "assets/Screens/healthcheck_piconn_aihub_jobagent_trend.PNG": {
+        "store": "blob",
+        "id": "f232e62b04b47695d049b6dd9ba3fe7e",
+        "bytes": 53912,
+        "type": "image/png"
+      },
+      "assets/Screens/healthcheck_pistatustrend.PNG": {
+        "store": "blob",
+        "id": "32ab8560e12a0e7e5a874dddc000f8dd",
+        "bytes": 30344,
+        "type": "image/png"
+      },
+      "assets/Screens/inbox_workflow_autodeligate.PNG": {
+        "store": "blob",
+        "id": "3966a4183f2b77e000e326e403182e43",
+        "bytes": 33280,
+        "type": "image/png"
+      },
+      "assets/Screens/inbox_workflowmodal.PNG": {
+        "store": "blob",
+        "id": "61f4515e988f723dbc24bce5244ca0cf",
+        "bytes": 91372,
+        "type": "image/png"
+      },
+      "assets/Screens/model_details.PNG": {
+        "store": "blob",
+        "id": "365b3434503458c97599dc8de173f58f",
+        "bytes": 46978,
+        "type": "image/png"
+      },
+      "assets/Screens/muteAlertInfo.PNG": {
+        "store": "blob",
+        "id": "cf4f83d09261953c5702b5cadee5d68e",
+        "bytes": 35599,
+        "type": "image/png"
+      },
+      "assets/Screens/no_image_icon.png": {
+        "store": "blob",
+        "id": "eef0f792564a51fe9149d909bd465915",
+        "bytes": 6580,
+        "type": "image/png"
+      },
+      "assets/Screens/operations_piechart.PNG": {
+        "store": "blob",
+        "id": "9ae5745616ce49c2097393a7c2b59980",
+        "bytes": 120317,
+        "type": "image/png"
+      },
+      "assets/Screens/operations_viewdetail.PNG": {
+        "store": "blob",
+        "id": "d1aa9adffb1a325ce63da790d7bf3510",
+        "bytes": 117303,
+        "type": "image/png"
+      },
+      "assets/Screens/opportunity_trend.PNG": {
+        "store": "blob",
+        "id": "731c4d317f88176ea2ace79cea1421a6",
+        "bytes": 54238,
+        "type": "image/png"
+      },
+      "assets/Screens/optimization_objective.PNG": {
+        "store": "blob",
+        "id": "3bee5a416e8d2453d2a33ead5918e754",
+        "bytes": 30354,
+        "type": "image/png"
+      },
+      "assets/Screens/overview_kpi_details.PNG": {
+        "store": "blob",
+        "id": "ef91cdcc989815c6bc3401b6d175fb93",
+        "bytes": 21020,
+        "type": "image/png"
+      },
+      "assets/Screens/overview_kpi_sorting.PNG": {
+        "store": "blob",
+        "id": "7b9b058306429abef430052d6383cad6",
+        "bytes": 40125,
+        "type": "image/png"
+      },
+      "assets/Screens/overview_kpi_trends.PNG": {
+        "store": "blob",
+        "id": "c88727e026f0cb51f98522dbef8e5c07",
+        "bytes": 43882,
+        "type": "image/png"
+      },
+      "assets/Screens/overview_toptile_actions.PNG": {
+        "store": "blob",
+        "id": "8edf9c76ccd9bebfbc54ad8cd1744f85",
+        "bytes": 35326,
+        "type": "image/png"
+      },
+      "assets/Screens/overview_toptile_trend.PNG": {
+        "store": "blob",
+        "id": "3a3a11214a83c311443e28d97d91f06a",
+        "bytes": 38496,
+        "type": "image/png"
+      },
+      "assets/Screens/plant_monthlyUtilizationReport.PNG": {
+        "store": "blob",
+        "id": "f4c6f4bd933067072f2025027d51bd0a",
+        "bytes": 35801,
+        "type": "image/png"
+      },
+      "assets/Screens/plantlist.PNG": {
+        "store": "blob",
+        "id": "e790140491c6000d9d8c9611b53e0e06",
+        "bytes": 46779,
+        "type": "image/png"
+      },
+      "assets/Screens/solution_live_status.PNG": {
+        "store": "blob",
+        "id": "f6ffa566542705380b1a8a6f982dc8c8",
+        "bytes": 14981,
+        "type": "image/png"
+      },
+      "assets/Screens/systemlist.PNG": {
+        "store": "blob",
+        "id": "72440d6963df08259fc97475bd5e023d",
+        "bytes": 53526,
+        "type": "image/png"
+      },
+      "assets/Screens/userstatistics_affiliatewise.PNG": {
+        "store": "blob",
+        "id": "3ffc3888ab86da7097f252ca2a98c326",
+        "bytes": 26736,
+        "type": "image/png"
+      },
+      "assets/Screens/userstatistics_daywise.PNG": {
+        "store": "blob",
+        "id": "573c76ec5bffb811e0e76395b353bf6e",
+        "bytes": 26988,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_addspanwindow.PNG": {
+        "store": "blob",
+        "id": "a99915863f147f0df5e79511815f53e3",
+        "bytes": 16333,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_addtags.PNG": {
+        "store": "blob",
+        "id": "cd8ce5d4cf1f0090b88bbab816230aba",
+        "bytes": 50178,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_businessimpact_e_trend.PNG": {
+        "store": "blob",
+        "id": "e1c1802197034bb684dd2b0b9dc1a4ea",
+        "bytes": 35503,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_businessimpact_p_trend.PNG": {
+        "store": "blob",
+        "id": "b736fcc032df8a0cf23e47795ca130a7",
+        "bytes": 35503,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_businessimpact_pe_trend.PNG": {
+        "store": "blob",
+        "id": "104db3292fdb2bce08e67ed8933be51a",
+        "bytes": 40886,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_editspanmodal.PNG": {
+        "store": "blob",
+        "id": "a4fe5715a71bcd02cebac6ead6b54751",
+        "bytes": 29506,
+        "type": "image/png"
+      },
+      "assets/Screens/vc_infomodal.PNG": {
+        "store": "blob",
+        "id": "a96adc80bddef9f26ffd757b96218494",
+        "bytes": 52613,
+        "type": "image/png"
+      },
+      "assets/Screens/workflow_adduser.PNG": {
+        "store": "blob",
+        "id": "d26ae49f36c440e201750442b9831dc2",
+        "bytes": 17981,
+        "type": "image/png"
+      },
+      "assets/Screens/workflow_midifyuser.PNG": {
+        "store": "blob",
+        "id": "8b0d54bdbe26fcc8e3a1a935af3f2853",
+        "bytes": 17698,
+        "type": "image/png"
+      },
+      "assets/Status/active.svg": {
+        "store": "blob",
+        "id": "0b03ec25ca170718ff7a061c6d34384b",
+        "bytes": 2207,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/autoclosed.svg": {
+        "store": "blob",
+        "id": "72e310e2bcf3a485d8dacbd389cc0a70",
+        "bytes": 8283,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/closed.svg": {
+        "store": "blob",
+        "id": "a5a772ea90929038b9069b81ec0008ec",
+        "bytes": 1231,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/energy.svg": {
+        "store": "blob",
+        "id": "74febc960c367f7d6e84ce748795a30f",
+        "bytes": 793,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/environment.svg": {
+        "store": "blob",
+        "id": "9f1eb082a511093490cf142b5a85bef3",
+        "bytes": 1703,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/generatedAlert.svg": {
+        "store": "blob",
+        "id": "df2af49b02625a28805d5f591a076a0a",
+        "bytes": 3120,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/implemented.svg": {
+        "store": "blob",
+        "id": "e44311a58c8a34714198d0addbcbf2e8",
+        "bytes": 892,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/overdue.svg": {
+        "store": "blob",
+        "id": "d52210965e6ead3ffd3f332d813477bb",
+        "bytes": 3826,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/pending.svg": {
+        "store": "blob",
+        "id": "d6d49ab5128a198a6194e7e2f3db1075",
+        "bytes": 3991,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/progressalert.svg": {
+        "store": "blob",
+        "id": "16d4067d6dffcc367ac3f581447921f1",
+        "bytes": 6720,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/rejected.svg": {
+        "store": "blob",
+        "id": "d76a97f5c6cb4001a0846add92e63ba8",
+        "bytes": 821,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/view_arrow_icon.svg": {
+        "store": "blob",
+        "id": "0d502ac2544204f0caf02811bfb4180d",
+        "bytes": 1455,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/view_arrow_icon_2color.svg": {
+        "store": "blob",
+        "id": "1e08aa34c69a3de35213a72e58106874",
+        "bytes": 1387,
+        "type": "image/svg+xml"
+      },
+      "assets/Status/work_in_progress.svg": {
+        "store": "blob",
+        "id": "eb52226c9cec10fd6a0dd8c04423c108",
+        "bytes": 8595,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/Expand_image.svg": {
+        "store": "blob",
+        "id": "f3a1f52e238b34d7cb284cabde38a3ea",
+        "bytes": 447,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/arrow_left.svg": {
+        "store": "blob",
+        "id": "77ff0b36c7e127f49b1c60a28dab92a6",
+        "bytes": 392,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/arrow_right.svg": {
+        "store": "blob",
+        "id": "0292c4bc50f3413fae66c8a24a353f45",
+        "bytes": 386,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/chart_view_icon.svg": {
+        "store": "blob",
+        "id": "32ba15ed99d024dfc082a170ad34a81f",
+        "bytes": 14303,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/collpsed_image.svg": {
+        "store": "blob",
+        "id": "7a83cbd42bd941e361083dafc0119bba",
+        "bytes": 421,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/downDirecrionIcon.svg": {
+        "store": "blob",
+        "id": "3d8cefc0fecded607b43dc1ec52895cc",
+        "bytes": 5621,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/table_minus_icon.svg": {
+        "store": "blob",
+        "id": "8988839769b05390e38f10191b144982",
+        "bytes": 212,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/table_plus_icon.svg": {
+        "store": "blob",
+        "id": "17a91f7cdb95c1d24c2c0f531e529aaa",
+        "bytes": 366,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/table_plus_icon_without_space.svg": {
+        "store": "blob",
+        "id": "dd91e9556646935a1d31e6c5d6c9bb3c",
+        "bytes": 322,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/table_view_icon.svg": {
+        "store": "blob",
+        "id": "d7158cea3bdda2062197670b37aaeacf",
+        "bytes": 3231,
+        "type": "image/svg+xml"
+      },
+      "assets/Tables/view_transpose_icon.svg": {
+        "store": "blob",
+        "id": "3f4750643106dd0446d7096f4f6ec96f",
+        "bytes": 1408,
+        "type": "image/svg+xml"
+      },
+      "fonts/sabictypefaceheadline_bd-webfont (2).woff2": {
+        "store": "blob",
+        "id": "711f9d631874ddf261a517a094b45ebc",
+        "sha256": "87adc80b48fbda4bd38a3d1e6484c4811f4c399ba5dac401e79d372343f8cd5a",
+        "bytes": 25932,
+        "type": "font/woff2",
+        "name": "sabictypefaceheadline_bd-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:10.641Z",
+        "via": "page"
+      },
+      "fonts/sabictypefaceheadline_lt-webfont (2).woff2": {
+        "store": "blob",
+        "id": "6591ef9926fd2cad13406213a0e64d8e",
+        "sha256": "0bd513f3353ee76fcfc3874f9e95d57ad452ac165829c96e7f798e04a796e983",
+        "bytes": 27468,
+        "type": "font/woff2",
+        "name": "sabictypefaceheadline_lt-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:12.454Z",
+        "via": "page"
+      },
+      "fonts/sabictypefaceheadline_lt-webfont.woff": {
+        "store": "blob",
+        "id": "f9b42b13e16830e67162f86b79e0d6e3",
+        "sha256": "ab26567b9ae083127a9ba47ee9fbd0b01ee7f74bd62d162d4011fffe40a82807",
+        "bytes": 34780,
+        "type": "font/woff",
+        "name": "sabictypefaceheadline_lt-webfont.woff",
+        "addedAt": "2026-10-06T13:52:11.541Z",
+        "via": "page"
+      },
+      "fonts/sabictypefaceheadline_rg-webfont (2).woff2": {
+        "store": "blob",
+        "id": "59b2e4c4fb9199d075459868efc7653c",
+        "sha256": "13db1595ebebe6ecf5b9659ced220579d6d16f20cd226250b4da301b2638bf06",
+        "bytes": 27824,
+        "type": "font/woff2",
+        "name": "sabictypefaceheadline_rg-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:14.424Z",
+        "via": "page"
+      },
+      "fonts/sabictypefaceheadline_rg-webfont.woff": {
+        "store": "blob",
+        "id": "4ce573a26a51f18f2337e1b04353b9f8",
+        "sha256": "28b7ce5205b8666cdd7d3dabfd8795a6cd4cbc45841b8a7e62305befc82961f9",
+        "bytes": 35288,
+        "type": "font/woff",
+        "name": "sabictypefaceheadline_rg-webfont.woff",
+        "addedAt": "2026-10-06T13:52:13.434Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_bd-webfont (2).woff2": {
+        "store": "blob",
+        "id": "b787ed16af9a5a952bf32280d10da02b",
+        "sha256": "9502e40f9410db960047983809bec0789578c42c2dd2fe0577623561b5528e2f",
+        "bytes": 24156,
+        "type": "font/woff2",
+        "name": "sabictypefacetext_bd-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:16.139Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_bd-webfont.woff": {
+        "store": "blob",
+        "id": "ac16b1e7bad5446c417498bc274c671d",
+        "sha256": "5a25e65062f064ad0271a4ccbba0c8dd2c990a53d90c9bcfb440578e7e25ccfb",
+        "bytes": 29656,
+        "type": "font/woff",
+        "name": "sabictypefacetext_bd-webfont.woff",
+        "addedAt": "2026-10-06T13:52:15.287Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_lt-webfont (2).woff2": {
+        "store": "blob",
+        "id": "0ad6a3d6fcd685503054e934f6b426e3",
+        "sha256": "d239d2f7a05883eb3ae4a322ea9d980b743f7dfcb0b47a788ef925cbe837314d",
+        "bytes": 26456,
+        "type": "font/woff2",
+        "name": "sabictypefacetext_lt-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:17.934Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_lt-webfont.woff": {
+        "store": "blob",
+        "id": "576e186c391bf1306285907a6244c771",
+        "sha256": "2bfca7339cec74a83e8dfef236493fc2556bc1157a68a75190a4acd038ea8875",
+        "bytes": 33712,
+        "type": "font/woff",
+        "name": "sabictypefacetext_lt-webfont.woff",
+        "addedAt": "2026-10-06T13:52:17.056Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_rg-webfont (2).woff2": {
+        "store": "blob",
+        "id": "7137c1ef5fbef1ee1f84a386646c8ee9",
+        "sha256": "fe777b997b0fb6e79109877c93722aaf48ea3ab3dfbca53f46e82d2ef905f333",
+        "bytes": 26668,
+        "type": "font/woff2",
+        "name": "sabictypefacetext_rg-webfont.woff2",
+        "addedAt": "2026-10-06T13:52:19.657Z",
+        "via": "page"
+      },
+      "fonts/sabictypefacetext_rg-webfont.woff": {
+        "store": "blob",
+        "id": "f9840ad47a5ea9cf51c34208f7c93b30",
+        "sha256": "c364fb5dc67594b5b46a72dd41f616aa93c62d8471391de23c47ab3e62683a7c",
+        "bytes": 34052,
+        "type": "font/woff",
+        "name": "sabictypefacetext_rg-webfont.woff",
+        "addedAt": "2026-10-06T13:52:18.785Z",
+        "via": "page"
+      }
+    },
+    "blobBytesUsed": 3936731
+  }
+}

@@ -1,0 +1,1941 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Affiliates": {
+      "files": {
+        "1200.svg": {
+          "blob": "6be2f3ccfd46a6478ec8d8f3f848682c",
+          "name": "1200.svg",
+          "size": 7919,
+          "type": "image/svg+xml"
+        },
+        "1300.svg": {
+          "blob": "a3d480f2fc5493991f6e1a153fdba5b4",
+          "name": "1300.svg",
+          "size": 8369,
+          "type": "image/svg+xml"
+        },
+        "1400.svg": {
+          "blob": "71b601863b15003a1546b943a99700ef",
+          "name": "1400.svg",
+          "size": 8444,
+          "type": "image/svg+xml"
+        },
+        "1500.svg": {
+          "blob": "de3801db8172459997f21cbc9d4451f9",
+          "name": "1500.svg",
+          "size": 8353,
+          "type": "image/svg+xml"
+        },
+        "1600.svg": {
+          "blob": "649fd1280490c8468461ccb6e187db8b",
+          "name": "1600.svg",
+          "size": 10020,
+          "type": "image/svg+xml"
+        },
+        "1800.svg": {
+          "blob": "eb8da609842a8b718b93fb3df80de8b0",
+          "name": "1800.svg",
+          "size": 8168,
+          "type": "image/svg+xml"
+        },
+        "1900.svg": {
+          "blob": "6e123d94913bf65b3fe6f7b8f6f4fefe",
+          "name": "1900.svg",
+          "size": 16807,
+          "type": "image/svg+xml"
+        },
+        "2000.svg": {
+          "blob": "653fce47d40f815aa6696fab5941fe88",
+          "name": "2000.svg",
+          "size": 14983,
+          "type": "image/svg+xml"
+        },
+        "2200.svg": {
+          "blob": "8feab80bc4b74fbcdc2182bbaad3f34b",
+          "name": "2200.svg",
+          "size": 8632,
+          "type": "image/svg+xml"
+        },
+        "3300.svg": {
+          "blob": "1279da37ffd59a0d5f51d4dcafd0bb8a",
+          "name": "3300.svg",
+          "size": 12931,
+          "type": "image/svg+xml"
+        },
+        "4000.svg": {
+          "blob": "7c76b8b3d133b9f62318c328846dbe3a",
+          "name": "4000.svg",
+          "size": 18494,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Affiliates",
+      "order": [
+        "1200.svg",
+        "1300.svg",
+        "1400.svg",
+        "1500.svg",
+        "1600.svg",
+        "1800.svg",
+        "1900.svg",
+        "2000.svg",
+        "2200.svg",
+        "3300.svg",
+        "4000.svg"
+      ]
+    },
+    "Common": {
+      "files": {
+        "area_chart.svg": {
+          "blob": "f85c3375023ef300ec62caa22bc0c3ce",
+          "name": "area_chart.svg",
+          "size": 419,
+          "type": "image/svg+xml"
+        },
+        "bar_chart.svg": {
+          "blob": "625cbdc8fb0237dd1965d233bb191304",
+          "name": "bar_chart.svg",
+          "size": 726,
+          "type": "image/svg+xml"
+        },
+        "bin.svg": {
+          "blob": "53ae3ca654bdf9b808dc8f7cec860c6b",
+          "name": "bin.svg",
+          "size": 1136,
+          "type": "image/svg+xml"
+        },
+        "bin_blue.svg": {
+          "blob": "8e457c91e8d2b437439988f0650c714b",
+          "name": "bin_blue.svg",
+          "size": 1134,
+          "type": "image/svg+xml"
+        },
+        "blue_clock_icon_gray_background.png": {
+          "blob": "fcc8f904066e7729323a2e4ad0880d64",
+          "name": "blue_clock_icon_gray_background.png",
+          "size": 6086,
+          "type": "image/png"
+        },
+        "blue_download_icon.svg": {
+          "blob": "161822f7528b842bc3c161d41761ad0b",
+          "name": "blue_download_icon.svg",
+          "size": 650,
+          "type": "image/svg+xml"
+        },
+        "blue_usericon_gray_background.svg": {
+          "blob": "b58fed516dd8ec1fd0947747f09ecda3",
+          "name": "blue_usericon_gray_background.svg",
+          "size": 1386,
+          "type": "image/svg+xml"
+        },
+        "blue_warning.svg": {
+          "blob": "8e891e93ee81e211cc0d2a3df2758a97",
+          "name": "blue_warning.svg",
+          "size": 2151,
+          "type": "image/svg+xml"
+        },
+        "breadcrumb_separator.svg": {
+          "blob": "177494f5983ebbd4965ace837ee399bc",
+          "name": "breadcrumb_separator.svg",
+          "size": 421,
+          "type": "image/svg+xml"
+        },
+        "check.svg": {
+          "blob": "a0805d0d848bf600606491e84e57c461",
+          "name": "check.svg",
+          "size": 221,
+          "type": "image/svg+xml"
+        },
+        "check_green_bold.svg": {
+          "blob": "059277feaf81d7d717d172d84c9e4da4",
+          "name": "check_green_bold.svg",
+          "size": 230,
+          "type": "image/svg+xml"
+        },
+        "check_red_bold.svg": {
+          "blob": "b5da6f951db88080238dc15bf9aff6ea",
+          "name": "check_red_bold.svg",
+          "size": 329,
+          "type": "image/svg+xml"
+        },
+        "closecircleIcon.svg": {
+          "blob": "df8dc51c531ab0291de15f75d0fa71b5",
+          "name": "closecircleIcon.svg",
+          "size": 709,
+          "type": "image/svg+xml"
+        },
+        "cross_with_line.svg": {
+          "blob": "da0bf57486c332a2ff79750c1af7be5d",
+          "name": "cross_with_line.svg",
+          "size": 245,
+          "type": "image/svg+xml"
+        },
+        "database_icon.svg": {
+          "blob": "e5628253a3834f643315b2394962ea3e",
+          "name": "database_icon.svg",
+          "size": 5440,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_blue.svg": {
+          "blob": "191c3448e9acee0e7805e6a22f12e38b",
+          "name": "dotted_trend_primary_blue.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_dark_blue.svg": {
+          "blob": "f831f9f39bfa6265e04f87cd972f3a15",
+          "name": "dotted_trend_primary_dark_blue.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_gray_3.svg": {
+          "blob": "17f34d24ee9552be022383efa4a33ce9",
+          "name": "dotted_trend_primary_gray_3.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_green.svg": {
+          "blob": "4a980945eeacc358ab8f922a404bf0b5",
+          "name": "dotted_trend_primary_green.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_orange.svg": {
+          "blob": "7e5ed32f7b1f79298aa2fe1829c52746",
+          "name": "dotted_trend_primary_orange.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_white.svg": {
+          "blob": "26e1f861592f72cb2d6a56ec62ea27c4",
+          "name": "dotted_trend_primary_white.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "dotted_trend_primary_yellow.svg": {
+          "blob": "db1a59354edb4b36012a3a4ccc15effc",
+          "name": "dotted_trend_primary_yellow.svg",
+          "size": 318,
+          "type": "image/svg+xml"
+        },
+        "elips_loader.svg": {
+          "blob": "9100af7ddeb2d5b1495a9eaceee0807a",
+          "name": "elips_loader.svg",
+          "size": 554,
+          "type": "image/svg+xml"
+        },
+        "emailIcon.svg": {
+          "blob": "5b2345deccd5a0821e7faeb64c2ebe6b",
+          "name": "emailIcon.svg",
+          "size": 1446,
+          "type": "image/svg+xml"
+        },
+        "gray_cross.svg": {
+          "blob": "08386c3dd2427dd78909a9b90fb0f234",
+          "name": "gray_cross.svg",
+          "size": 325,
+          "type": "image/svg+xml"
+        },
+        "green_check.svg": {
+          "blob": "5872120205542b7c00454bac2dda197e",
+          "name": "green_check.svg",
+          "size": 222,
+          "type": "image/svg+xml"
+        },
+        "historic.svg": {
+          "blob": "6188a5dac8d86f7bf8e62707e0d142d1",
+          "name": "historic.svg",
+          "size": 1488,
+          "type": "image/svg+xml"
+        },
+        "line_chart.svg": {
+          "blob": "f7492906a35d41a5972ef7b6cbcb8b8b",
+          "name": "line_chart.svg",
+          "size": 483,
+          "type": "image/svg+xml"
+        },
+        "loaderGray.svg": {
+          "blob": "4d5062ea7d98460b7caed3642d78dfb5",
+          "name": "loaderGray.svg",
+          "size": 400,
+          "type": "image/svg+xml"
+        },
+        "ods_arrows.svg": {
+          "blob": "83380f2422ca2925b0f208d763d0268e",
+          "name": "ods_arrows.svg",
+          "size": 1577,
+          "type": "image/svg+xml"
+        },
+        "plants_color_icon.svg": {
+          "blob": "8a5f84ed15f0de8a21ff1529dc089f16",
+          "name": "plants_color_icon.svg",
+          "size": 3944,
+          "type": "image/svg+xml"
+        },
+        "red_cross.svg": {
+          "blob": "29c0680d428c4dcf126e739c235c621b",
+          "name": "red_cross.svg",
+          "size": 329,
+          "type": "image/svg+xml"
+        },
+        "red_delete_icon.svg": {
+          "blob": "c90d4552a78c831105ca4e48b2328bf9",
+          "name": "red_delete_icon.svg",
+          "size": 1059,
+          "type": "image/svg+xml"
+        },
+        "scatter_plot.svg": {
+          "blob": "e80027ab811d47896243e36715c5b0a5",
+          "name": "scatter_plot.svg",
+          "size": 1300,
+          "type": "image/svg+xml"
+        },
+        "tabsImg.svg": {
+          "blob": "4ca5b13217d6837e50d8832ebcee176c",
+          "name": "tabsImg.svg",
+          "size": 1119,
+          "type": "image/svg+xml"
+        },
+        "tabsImgActive.svg": {
+          "blob": "816219a73dd6db4617896248de924a4d",
+          "name": "tabsImgActive.svg",
+          "size": 1119,
+          "type": "image/svg+xml"
+        },
+        "timeInfo.svg": {
+          "blob": "e9cf1e1ff9484aad41d48d9475396ea9",
+          "name": "timeInfo.svg",
+          "size": 809,
+          "type": "image/svg+xml"
+        },
+        "timeinfo_blue.svg": {
+          "blob": "e686ce8c97c1ed0f73649f94b85a4f53",
+          "name": "timeinfo_blue.svg",
+          "size": 810,
+          "type": "image/svg+xml"
+        },
+        "tren_up_dotted.svg": {
+          "blob": "8d07a5d1a1abfb8032c9cf0d8a069d54",
+          "name": "tren_up_dotted.svg",
+          "size": 1681,
+          "type": "image/svg+xml"
+        },
+        "warning.svg": {
+          "blob": "e40821dd98d9de0470fda6a7918960db",
+          "name": "warning.svg",
+          "size": 2135,
+          "type": "image/svg+xml"
+        },
+        "white_warning.svg": {
+          "blob": "e2a64b09650c418951edb91df17f7e45",
+          "name": "white_warning.svg",
+          "size": 2153,
+          "type": "image/svg+xml"
+        },
+        "workprogress.svg": {
+          "blob": "bc1ccee3a240f2b1c9d190ab9f7e6f19",
+          "name": "workprogress.svg",
+          "size": 2080,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Common",
+      "order": [
+        "area_chart.svg",
+        "bar_chart.svg",
+        "bin.svg",
+        "bin_blue.svg",
+        "blue_clock_icon_gray_background.png",
+        "blue_download_icon.svg",
+        "blue_usericon_gray_background.svg",
+        "blue_warning.svg",
+        "breadcrumb_separator.svg",
+        "check.svg",
+        "check_green_bold.svg",
+        "check_red_bold.svg",
+        "closecircleIcon.svg",
+        "cross_with_line.svg",
+        "database_icon.svg",
+        "dotted_trend_primary_blue.svg",
+        "dotted_trend_primary_dark_blue.svg",
+        "dotted_trend_primary_gray_3.svg",
+        "dotted_trend_primary_green.svg",
+        "dotted_trend_primary_orange.svg",
+        "dotted_trend_primary_white.svg",
+        "dotted_trend_primary_yellow.svg",
+        "elips_loader.svg",
+        "emailIcon.svg",
+        "gray_cross.svg",
+        "green_check.svg",
+        "historic.svg",
+        "line_chart.svg",
+        "loaderGray.svg",
+        "ods_arrows.svg",
+        "plants_color_icon.svg",
+        "red_cross.svg",
+        "red_delete_icon.svg",
+        "scatter_plot.svg",
+        "tabsImg.svg",
+        "tabsImgActive.svg",
+        "timeInfo.svg",
+        "timeinfo_blue.svg",
+        "tren_up_dotted.svg",
+        "warning.svg",
+        "white_warning.svg",
+        "workprogress.svg"
+      ],
+      "tile": "s"
+    },
+    "FileTypes": {
+      "files": {
+        "excelFile_icon.svg": {
+          "blob": "f5a5f0965da29a7e7b59e11f0cac0ca5",
+          "name": "excelFile_icon.svg",
+          "size": 3923,
+          "type": "image/svg+xml"
+        },
+        "folder_icon.svg": {
+          "blob": "2f5243db3d581428b2bda4005f0794cc",
+          "name": "folder_icon.svg",
+          "size": 2538,
+          "type": "image/svg+xml"
+        },
+        "htmlFile_icon.svg": {
+          "blob": "ed342372d80aa8b75d5126fa701c37fe",
+          "name": "htmlFile_icon.svg",
+          "size": 4578,
+          "type": "image/svg+xml"
+        },
+        "pdfFile_icon.svg": {
+          "blob": "fe6697fadae6694e7e034e43dd2f83ac",
+          "name": "pdfFile_icon.svg",
+          "size": 4349,
+          "type": "image/svg+xml"
+        },
+        "pptFile_icon.svg": {
+          "blob": "60c435bd169600e1d88d7c9446c54b32",
+          "name": "pptFile_icon.svg",
+          "size": 1811,
+          "type": "image/svg+xml"
+        },
+        "txtFile_icon.svg": {
+          "blob": "ea24f13748cec3469f9e7348c34ca415",
+          "name": "txtFile_icon.svg",
+          "size": 3583,
+          "type": "image/svg+xml"
+        },
+        "unknownFile_icon.svg": {
+          "blob": "9aaa62764cf7d0d5b758e3fa8da93651",
+          "name": "unknownFile_icon.svg",
+          "size": 1932,
+          "type": "image/svg+xml"
+        },
+        "videoFile_icon.svg": {
+          "blob": "ffc2033409198b0f1f13a226900c86a9",
+          "name": "videoFile_icon.svg",
+          "size": 2549,
+          "type": "image/svg+xml"
+        },
+        "wordFile_icon.svg": {
+          "blob": "dc9d905934b45c6d1d21c946c358dec4",
+          "name": "wordFile_icon.svg",
+          "size": 2236,
+          "type": "image/svg+xml"
+        },
+        "zipFile_icon.svg": {
+          "blob": "f4258e3a9882e4e396706bc1ae24be32",
+          "name": "zipFile_icon.svg",
+          "size": 2519,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "FileTypes",
+      "order": [
+        "excelFile_icon.svg",
+        "folder_icon.svg",
+        "htmlFile_icon.svg",
+        "pdfFile_icon.svg",
+        "pptFile_icon.svg",
+        "txtFile_icon.svg",
+        "unknownFile_icon.svg",
+        "videoFile_icon.svg",
+        "wordFile_icon.svg",
+        "zipFile_icon.svg"
+      ],
+      "tile": "s"
+    },
+    "Header": {
+      "files": {
+        "backarrowIcon.svg": {
+          "blob": "be95dc882464e11c3a63a10813b0bdd9",
+          "name": "backarrowIcon.svg",
+          "size": 2940,
+          "type": "image/svg+xml"
+        },
+        "calender_gray_icon.svg": {
+          "blob": "64351a2dd61b4e889d3dac83ab49dc8f",
+          "name": "calender_gray_icon.svg",
+          "size": 3588,
+          "type": "image/svg+xml"
+        },
+        "ecm_icon.svg": {
+          "blob": "34187f5d9ce4e88f8aed826dd8745ed9",
+          "name": "ecm_icon.svg",
+          "size": 1193,
+          "type": "image/svg+xml"
+        },
+        "edit_default_icon.svg": {
+          "blob": "0bf7d85c6787486d78aaf5a47a532d9b",
+          "name": "edit_default_icon.svg",
+          "size": 984,
+          "type": "image/svg+xml"
+        },
+        "hangfire_icon.svg": {
+          "blob": "c7e507f060f10c0677a8973b365e8a4b",
+          "name": "hangfire_icon.svg",
+          "size": 46261,
+          "type": "image/svg+xml"
+        },
+        "logout.svg": {
+          "blob": "449db32a6b00466cd9f72f7e768aaa98",
+          "name": "logout.svg",
+          "size": 819,
+          "type": "image/svg+xml"
+        },
+        "notification_icon.svg": {
+          "blob": "8b4a268fdfb50bd72aa672fe075d2eac",
+          "name": "notification_icon.svg",
+          "size": 2992,
+          "type": "image/svg+xml"
+        },
+        "search_icon.svg": {
+          "blob": "d75349ff43d81fa1fe2da95b9a687619",
+          "name": "search_icon.svg",
+          "size": 817,
+          "type": "image/svg+xml"
+        },
+        "super_admin_default.svg": {
+          "blob": "a9416e2fa8a45351b12b9dda48e92bf0",
+          "name": "super_admin_default.svg",
+          "size": 921,
+          "type": "image/svg+xml"
+        },
+        "super_admin_default_bgspace.svg": {
+          "blob": "39ade01debdcc1f4a2490006115fcf6e",
+          "name": "super_admin_default_bgspace.svg",
+          "size": 963,
+          "type": "image/svg+xml"
+        },
+        "userProfileIcon.svg": {
+          "blob": "4d3ed3669171b88decf26f12b053599b",
+          "name": "userProfileIcon.svg",
+          "size": 916,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Header",
+      "order": [
+        "backarrowIcon.svg",
+        "calender_gray_icon.svg",
+        "ecm_icon.svg",
+        "edit_default_icon.svg",
+        "hangfire_icon.svg",
+        "logout.svg",
+        "notification_icon.svg",
+        "search_icon.svg",
+        "super_admin_default.svg",
+        "super_admin_default_bgspace.svg",
+        "userProfileIcon.svg"
+      ],
+      "tile": "s"
+    },
+    "IconFont": {
+      "files": {},
+      "name": "IconFont",
+      "order": [],
+      "tile": "s"
+    },
+    "IconsV2": {
+      "files": {
+        "Home.svg": {
+          "blob": "31314d51e526c7d41fb82d5504864b15",
+          "name": "Home.svg",
+          "size": 764,
+          "type": "image/svg+xml"
+        },
+        "Triple_arrow.svg": {
+          "blob": "2e7f15517dc9d64bc66efcb0203ffa77",
+          "name": "Triple_arrow.svg",
+          "size": 459,
+          "type": "image/svg+xml"
+        },
+        "actionable_disabled_new_icon.svg": {
+          "blob": "8215cf17802b6075a2afafbab85bc9c7",
+          "name": "actionable_disabled_new_icon.svg",
+          "size": 1019,
+          "type": "image/svg+xml"
+        },
+        "active_deviation_color_icon.svg": {
+          "blob": "30f9fdf7de247da0f94df82261156ec9",
+          "name": "active_deviation_color_icon.svg",
+          "size": 2050,
+          "type": "image/svg+xml"
+        },
+        "affiliates.svg": {
+          "blob": "da00f4a062952657c059f79af0965f80",
+          "name": "affiliates.svg",
+          "size": 5208,
+          "type": "image/svg+xml"
+        },
+        "affiliates_color_icon.svg": {
+          "blob": "bda9d0678eacfd0daeda362cc983665b",
+          "name": "affiliates_color_icon.svg",
+          "size": 5117,
+          "type": "image/svg+xml"
+        },
+        "arrow_down_angel_bracket.svg": {
+          "blob": "ab6d775092299f960ae3f09777b50ca9",
+          "name": "arrow_down_angel_bracket.svg",
+          "size": 231,
+          "type": "image/svg+xml"
+        },
+        "arrow_down_blue.svg": {
+          "blob": "988b9c45db741caebd657fab053de1f2",
+          "name": "arrow_down_blue.svg",
+          "size": 1573,
+          "type": "image/svg+xml"
+        },
+        "arrow_down_gray.svg": {
+          "blob": "4e8a03dcf7a615840bc6bc1e3dda85cb",
+          "name": "arrow_down_gray.svg",
+          "size": 1573,
+          "type": "image/svg+xml"
+        },
+        "arrow_icon_down.svg": {
+          "blob": "743584777df9674142622e1ed0daf7fd",
+          "name": "arrow_icon_down.svg",
+          "size": 195,
+          "type": "image/svg+xml"
+        },
+        "arrow_icon_up.svg": {
+          "blob": "7c52fa06d248e2b6b66bea8a59db7219",
+          "name": "arrow_icon_up.svg",
+          "size": 142,
+          "type": "image/svg+xml"
+        },
+        "arrow_right_angel_bracket.svg": {
+          "blob": "75fa6cfdfd6dbe02edfbe47e32f495c3",
+          "name": "arrow_right_angel_bracket.svg",
+          "size": 800,
+          "type": "image/svg+xml"
+        },
+        "arrow_right_angel_bracket_blue.svg": {
+          "blob": "c90d8ac1fee3cb6d4a567381dc083574",
+          "name": "arrow_right_angel_bracket_blue.svg",
+          "size": 800,
+          "type": "image/svg+xml"
+        },
+        "badgeIcon.svg": {
+          "blob": "2f49ea396d37ebcee45bc23131064adf",
+          "name": "badgeIcon.svg",
+          "size": 3355,
+          "type": "image/svg+xml"
+        },
+        "brain_icon.svg": {
+          "blob": "9f1d2555dfb066a25fa33a9e1afef60d",
+          "name": "brain_icon.svg",
+          "size": 2751,
+          "type": "image/svg+xml"
+        },
+        "calendar_icon.svg": {
+          "blob": "62f90e8cc72b7099f619a3788cad8c80",
+          "name": "calendar_icon.svg",
+          "size": 3588,
+          "type": "image/svg+xml"
+        },
+        "chartToggle.svg": {
+          "blob": "b106d036371812b2c3bf61b752effdcf",
+          "name": "chartToggle.svg",
+          "size": 14450,
+          "type": "image/svg+xml"
+        },
+        "checkIconwithGreenBg.svg": {
+          "blob": "e7d0120e40398c91be8f6f2ad2ea9505",
+          "name": "checkIconwithGreenBg.svg",
+          "size": 258,
+          "type": "image/svg+xml"
+        },
+        "co2Reduction_color_icon.svg": {
+          "blob": "50865faecc7877275fe60aa1d3bfb802",
+          "name": "co2Reduction_color_icon.svg",
+          "size": 4325,
+          "type": "image/svg+xml"
+        },
+        "crossRedIcon.svg": {
+          "blob": "97923e1193aedd14fe111e711bd31f5e",
+          "name": "crossRedIcon.svg",
+          "size": 414,
+          "type": "image/svg+xml"
+        },
+        "energyProduction_color_icon.svg": {
+          "blob": "a6dd7b782df6bc83f7c31f55b653245c",
+          "name": "energyProduction_color_icon.svg",
+          "size": 3496,
+          "type": "image/svg+xml"
+        },
+        "eyeIcon.svg": {
+          "blob": "924f04aefb3ab3a5319d5e6d9fa271a5",
+          "name": "eyeIcon.svg",
+          "size": 2139,
+          "type": "image/svg+xml"
+        },
+        "furnace_summary_icon.svg": {
+          "blob": "e81e56d13182332a9def6ef114699ae3",
+          "name": "furnace_summary_icon.svg",
+          "size": 2687,
+          "type": "image/svg+xml"
+        },
+        "helpActiveIcon.svg": {
+          "blob": "74c59bc86bd2f6db96d5dc025b92968b",
+          "name": "helpActiveIcon.svg",
+          "size": 679,
+          "type": "image/svg+xml"
+        },
+        "map.svg": {
+          "blob": "1aae520dab42511da4a657434a86270e",
+          "name": "map.svg",
+          "size": 466,
+          "type": "image/svg+xml"
+        },
+        "overdue_deviations.svg": {
+          "blob": "34300242415880e256bb7443452eb767",
+          "name": "overdue_deviations.svg",
+          "size": 4423,
+          "type": "image/svg+xml"
+        },
+        "plants.svg": {
+          "blob": "fa41b160706329d60aa2f2158dd39860",
+          "name": "plants.svg",
+          "size": 3877,
+          "type": "image/svg+xml"
+        },
+        "plants_color_icon.svg": {
+          "blob": "92cb62ab939a1653e4077d76c1b64a62",
+          "name": "plants_color_icon.svg",
+          "size": 3944,
+          "type": "image/svg+xml"
+        },
+        "predicted_action2.svg": {
+          "blob": "4c4be28e1601f7554090ed148cb6d88d",
+          "name": "predicted_action2.svg",
+          "size": 2016,
+          "type": "image/svg+xml"
+        },
+        "predicted_action2_gray.svg": {
+          "blob": "92ddf2f87ce65557dffffc55845f8fd6",
+          "name": "predicted_action2_gray.svg",
+          "size": 6873,
+          "type": "image/svg+xml"
+        },
+        "predicted_action3_gray.svg": {
+          "blob": "6fe92c2100529dbe85d83991fef99cce",
+          "name": "predicted_action3_gray.svg",
+          "size": 1302,
+          "type": "image/svg+xml"
+        },
+        "productionGain_color_icon.png": {
+          "blob": "2542a8bbf2620502b1d5c385b403bd1c",
+          "name": "productionGain_color_icon.png",
+          "size": 13002,
+          "type": "image/png"
+        },
+        "reset_icon.svg": {
+          "blob": "44c08e11ddeb980e9b1dd92a48e0d4cc",
+          "name": "reset_icon.svg",
+          "size": 2238,
+          "type": "image/svg+xml"
+        },
+        "star_icon.svg": {
+          "blob": "e64952fccf17b81761601ecc6b057cd7",
+          "name": "star_icon.svg",
+          "size": 1931,
+          "type": "image/svg+xml"
+        },
+        "start_icon_filled.svg": {
+          "blob": "68345c5d0c0ea2a77486c0bbf62f1ca4",
+          "name": "start_icon_filled.svg",
+          "size": 289,
+          "type": "image/svg+xml"
+        },
+        "system_color_icon.svg": {
+          "blob": "cf8ada50ee78b9e34c98299cab4f050a",
+          "name": "system_color_icon.svg",
+          "size": 7553,
+          "type": "image/svg+xml"
+        },
+        "table_view_toggle.svg": {
+          "blob": "468ac4bc91664faaa24c5b73cbd7b72a",
+          "name": "table_view_toggle.svg",
+          "size": 3277,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "IconsV2",
+      "order": [
+        "actionable_disabled_new_icon.svg",
+        "active_deviation_color_icon.svg",
+        "affiliates.svg",
+        "affiliates_color_icon.svg",
+        "arrow_down_angel_bracket.svg",
+        "arrow_down_blue.svg",
+        "arrow_down_gray.svg",
+        "arrow_icon_down.svg",
+        "arrow_icon_up.svg",
+        "arrow_right_angel_bracket.svg",
+        "arrow_right_angel_bracket_blue.svg",
+        "badgeIcon.svg",
+        "brain_icon.svg",
+        "calendar_icon.svg",
+        "chartToggle.svg",
+        "checkIconwithGreenBg.svg",
+        "co2Reduction_color_icon.svg",
+        "crossRedIcon.svg",
+        "energyProduction_color_icon.svg",
+        "eyeIcon.svg",
+        "furnace_summary_icon.svg",
+        "helpActiveIcon.svg",
+        "Home.svg",
+        "map.svg",
+        "overdue_deviations.svg",
+        "plants.svg",
+        "plants_color_icon.svg",
+        "predicted_action2.svg",
+        "predicted_action2_gray.svg",
+        "predicted_action3_gray.svg",
+        "productionGain_color_icon.png",
+        "reset_icon.svg",
+        "star_icon.svg",
+        "start_icon_filled.svg",
+        "system_color_icon.svg",
+        "table_view_toggle.svg",
+        "Triple_arrow.svg"
+      ],
+      "tile": "s"
+    },
+    "KPIs": {
+      "files": {
+        "active_alerts.svg": {
+          "blob": "5d89d3e0cce9d5e570339deef1c9616f",
+          "name": "active_alerts.svg",
+          "size": 2116,
+          "type": "image/svg+xml"
+        },
+        "affiliates.svg": {
+          "blob": "566c5e093e4f90414dfb2efc44564c06",
+          "name": "affiliates.svg",
+          "size": 5233,
+          "type": "image/svg+xml"
+        },
+        "co2_reduction.svg": {
+          "blob": "26545e49d602acfb47320a32643d710a",
+          "name": "co2_reduction.svg",
+          "size": 4214,
+          "type": "image/svg+xml"
+        },
+        "distinctusers.svg": {
+          "blob": "b43e909360d2de352485627d9c7c83cd",
+          "name": "distinctusers.svg",
+          "size": 5211,
+          "type": "image/svg+xml"
+        },
+        "energy_red.svg": {
+          "blob": "33f83df24b2b7b713ab34c6c063eb925",
+          "name": "energy_red.svg",
+          "size": 3525,
+          "type": "image/svg+xml"
+        },
+        "overdue_alerts.svg": {
+          "blob": "d8708c4ea347ba788ee5e9919dcce0e9",
+          "name": "overdue_alerts.svg",
+          "size": 3495,
+          "type": "image/svg+xml"
+        },
+        "plants.svg": {
+          "blob": "f7c483b77b48c77571eb01062da9c8af",
+          "name": "plants.svg",
+          "size": 3937,
+          "type": "image/svg+xml"
+        },
+        "production_opp.svg": {
+          "blob": "7d6c46680be79b0432234e4ba824e0a6",
+          "name": "production_opp.svg",
+          "size": 6098,
+          "type": "image/svg+xml"
+        },
+        "system/Sorting.svg": {
+          "blob": "15ac21c842a3fa61be936714c970f49c",
+          "name": "system/Sorting.svg",
+          "size": 4558,
+          "type": "image/svg+xml"
+        },
+        "system/active_deviations.svg": {
+          "blob": "eaf95110ed6ccad4baf0fc1063c5fd8a",
+          "name": "system/active_deviations.svg",
+          "size": 2054,
+          "type": "image/svg+xml"
+        },
+        "system/energy_efficiency.svg": {
+          "blob": "1a77046868dc9cf04a1fdbf8495222fc",
+          "name": "system/energy_efficiency.svg",
+          "size": 3461,
+          "type": "image/svg+xml"
+        },
+        "system/environment_efficiency.svg": {
+          "blob": "8ed834b6b99818642d5ff7f308245eb9",
+          "name": "system/environment_efficiency.svg",
+          "size": 4132,
+          "type": "image/svg+xml"
+        },
+        "system/process_efficiency.svg": {
+          "blob": "efedbc9e548722d91021afbfdb43a73e",
+          "name": "system/process_efficiency.svg",
+          "size": 6028,
+          "type": "image/svg+xml"
+        },
+        "system/production_opp.svg": {
+          "blob": "6f7f310c207f75b8879bc6e1de7119a5",
+          "name": "system/production_opp.svg",
+          "size": 6028,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_affiliates.svg": {
+          "blob": "fa5b0bd9bf519a55de5a42028b75c34f",
+          "name": "tooltip/tool_tip_affiliates.svg",
+          "size": 2592,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_co2_reduction.svg": {
+          "blob": "dc783239c0bd3a9bb8ffe983f1051575",
+          "name": "tooltip/tool_tip_co2_reduction.svg",
+          "size": 1591,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_energy_production.svg": {
+          "blob": "aba93eb61e0df3a9640a1a68d21b0fe7",
+          "name": "tooltip/tool_tip_energy_production.svg",
+          "size": 2012,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_plants.svg": {
+          "blob": "b72b37fcbc43c3e71fb4ae2497c5be15",
+          "name": "tooltip/tool_tip_plants.svg",
+          "size": 2384,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_production_gain.svg": {
+          "blob": "cc043856d08b90ca29b2157b794805c8",
+          "name": "tooltip/tool_tip_production_gain.svg",
+          "size": 6127,
+          "type": "image/svg+xml"
+        },
+        "tooltip/tool_tip_systems.svg": {
+          "blob": "7e5e2d79501cc62ee6f2d6d8279c7e2d",
+          "name": "tooltip/tool_tip_systems.svg",
+          "size": 2090,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "KPIs",
+      "order": [
+        "active_alerts.svg",
+        "affiliates.svg",
+        "co2_reduction.svg",
+        "distinctusers.svg",
+        "energy_red.svg",
+        "overdue_alerts.svg",
+        "plants.svg",
+        "production_opp.svg",
+        "system/active_deviations.svg",
+        "system/energy_efficiency.svg",
+        "system/environment_efficiency.svg",
+        "system/process_efficiency.svg",
+        "system/production_opp.svg",
+        "system/Sorting.svg",
+        "tooltip/tool_tip_affiliates.svg",
+        "tooltip/tool_tip_co2_reduction.svg",
+        "tooltip/tool_tip_energy_production.svg",
+        "tooltip/tool_tip_plants.svg",
+        "tooltip/tool_tip_production_gain.svg",
+        "tooltip/tool_tip_systems.svg"
+      ]
+    },
+    "Loaders": {
+      "files": {
+        "blockShuffle.svg": {
+          "blob": "0b7cc4b8a2e1d83ca155f72fd2d8c308",
+          "name": "blockShuffle.svg",
+          "size": 388,
+          "type": "image/svg+xml"
+        },
+        "dots.svg": {
+          "blob": "970620fca6d26608d9e90976064d57fe",
+          "name": "dots.svg",
+          "size": 294,
+          "type": "image/svg+xml"
+        },
+        "download.gif": {
+          "blob": "91970975f305487903ede07221848acd",
+          "name": "download.gif",
+          "size": 146652,
+          "type": "image/gif"
+        },
+        "loader_1.svg": {
+          "blob": "6a354de3cb6c2a6b88ecebcc112e6cb4",
+          "name": "loader_1.svg",
+          "size": 1635,
+          "type": "image/svg+xml"
+        },
+        "loader_2.svg": {
+          "blob": "36389e6b70a26edb259ca5e8f801b937",
+          "name": "loader_2.svg",
+          "size": 2103,
+          "type": "image/svg+xml"
+        },
+        "loader_3.svg": {
+          "blob": "a37808bf3974bc0e16c647c86ae82aeb",
+          "name": "loader_3.svg",
+          "size": 504,
+          "type": "image/svg+xml"
+        },
+        "loader_4.svg": {
+          "blob": "74669809798162506608d34d0b7cb4fa",
+          "name": "loader_4.svg",
+          "size": 2451,
+          "type": "image/svg+xml"
+        },
+        "loader_5.svg": {
+          "blob": "a9faaa0dd26ebebc0a9212e7be6042ba",
+          "name": "loader_5.svg",
+          "size": 1130,
+          "type": "image/svg+xml"
+        },
+        "notification_red_bell_icon.gif": {
+          "blob": "7c2c477e196c603fc62f10b8d87d5377",
+          "name": "notification_red_bell_icon.gif",
+          "size": 58981,
+          "type": "image/gif"
+        },
+        "notification_yellow_bell_icon.gif": {
+          "blob": "9bbee2e7710cdc5c9df3c0deb8921ca9",
+          "name": "notification_yellow_bell_icon.gif",
+          "size": 55360,
+          "type": "image/gif"
+        },
+        "pulseMultiple.svg": {
+          "blob": "768d0e02e51ec2066b7d1aa746af639d",
+          "name": "pulseMultiple.svg",
+          "size": 295,
+          "type": "image/svg+xml"
+        },
+        "retrain_loader.svg": {
+          "blob": "2f23813a9b4ab9c2c5d292caa5d28be8",
+          "name": "retrain_loader.svg",
+          "size": 342,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Loaders",
+      "order": [
+        "blockShuffle.svg",
+        "dots.svg",
+        "download.gif",
+        "loader_1.svg",
+        "loader_2.svg",
+        "loader_3.svg",
+        "loader_4.svg",
+        "loader_5.svg",
+        "notification_red_bell_icon.gif",
+        "notification_yellow_bell_icon.gif",
+        "pulseMultiple.svg",
+        "retrain_loader.svg"
+      ]
+    },
+    "Logos": {
+      "files": {
+        "plant_efficiency_header_logo.png": {
+          "blob": "5b1c585b96d8cc9ab3f35c98b0df5028",
+          "name": "plant_efficiency_header_logo.png",
+          "size": 13355,
+          "type": "image/png"
+        },
+        "sabic_logo.svg": {
+          "blob": "178b2314a73f58773c182bc5ea7074fc",
+          "name": "sabic_logo.svg",
+          "size": 3231,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "plant_efficiency_header_logo.png",
+        "sabic_logo.svg"
+      ],
+      "tile": "l"
+    },
+    "Maps": {
+      "files": {
+        "america_region_map.svg": {
+          "blob": "5915f4ebe33b2e0e1496bf7edc773f93",
+          "name": "america_region_map.svg",
+          "size": 313071,
+          "type": "image/svg+xml"
+        },
+        "eu_region_map.svg": {
+          "blob": "304062e467d6775d4e9acc50ed7464c1",
+          "name": "eu_region_map.svg",
+          "size": 21603,
+          "type": "image/svg+xml"
+        },
+        "mea_region_map.png": {
+          "blob": "1b2dff46be6dfbc73daa8d5ab968840a",
+          "name": "mea_region_map.png",
+          "size": 80084,
+          "type": "image/png"
+        },
+        "world_map_svg.png": {
+          "blob": "31518fc511705ac2cae8ffea724dbdd2",
+          "name": "world_map_svg.png",
+          "size": 126608,
+          "type": "image/png"
+        }
+      },
+      "name": "Maps",
+      "order": [
+        "america_region_map.svg",
+        "eu_region_map.svg",
+        "mea_region_map.png",
+        "world_map_svg.png"
+      ],
+      "tile": "l"
+    },
+    "Navigation": {
+      "files": {
+        "arrow_down_angel_bracket.svg": {
+          "blob": "c6266950e8becb48739ad7d2087aa15c",
+          "name": "arrow_down_angel_bracket.svg",
+          "size": 231,
+          "type": "image/svg+xml"
+        },
+        "bookmark_icon.svg": {
+          "blob": "0370fade143f26190d403d31ccfffbdd",
+          "name": "bookmark_icon.svg",
+          "size": 376,
+          "type": "image/svg+xml"
+        },
+        "bookmark_icon_filled.svg": {
+          "blob": "4f47eb3e9de2bc149e9e503e136022a3",
+          "name": "bookmark_icon_filled.svg",
+          "size": 483,
+          "type": "image/svg+xml"
+        },
+        "camera_icon.svg": {
+          "blob": "6bb4a711e0376cd8de53dd88d0a4eadf",
+          "name": "camera_icon.svg",
+          "size": 891,
+          "type": "image/svg+xml"
+        },
+        "circlearrowIcon.svg": {
+          "blob": "590444e5db8f9c09634e04eb9991ae3d",
+          "name": "circlearrowIcon.svg",
+          "size": 760,
+          "type": "image/svg+xml"
+        },
+        "crackingIcon.svg": {
+          "blob": "eb5020a22c1b18e5c1139a089aec5025",
+          "name": "crackingIcon.svg",
+          "size": 2788,
+          "type": "image/svg+xml"
+        },
+        "decok.svg": {
+          "blob": "0b6cf5e55fdae52e8abb28448ee35dde",
+          "name": "decok.svg",
+          "size": 1549,
+          "type": "image/svg+xml"
+        },
+        "download_icon.svg": {
+          "blob": "36883a35ba5ca7918c5e282352ee0280",
+          "name": "download_icon.svg",
+          "size": 707,
+          "type": "image/svg+xml"
+        },
+        "expand_icon.svg": {
+          "blob": "6c6fd14a2e61458bdcf67c791b5fbdc6",
+          "name": "expand_icon.svg",
+          "size": 3470,
+          "type": "image/svg+xml"
+        },
+        "folder.svg": {
+          "blob": "36f6c246cf20de7a496520d1aecbc01a",
+          "name": "folder.svg",
+          "size": 1151,
+          "type": "image/svg+xml"
+        },
+        "health_check_report.svg": {
+          "blob": "309767a9b1485ad572fd7ad572adf9fa",
+          "name": "health_check_report.svg",
+          "size": 1961,
+          "type": "image/svg+xml"
+        },
+        "hss.svg": {
+          "blob": "f6d2795b40b4ff40833ad1bd675d8a42",
+          "name": "hss.svg",
+          "size": 2664,
+          "type": "image/svg+xml"
+        },
+        "monitoring.svg": {
+          "blob": "2f6f2eec3bdb61d61a3bc441f15ad7c5",
+          "name": "monitoring.svg",
+          "size": 1794,
+          "type": "image/svg+xml"
+        },
+        "overview.svg": {
+          "blob": "11df6ea932c14a646ea0a9dbae158059",
+          "name": "overview.svg",
+          "size": 3145,
+          "type": "image/svg+xml"
+        },
+        "settings.svg": {
+          "blob": "e7d70e9f9c649e2021f652a1ef8ae02a",
+          "name": "settings.svg",
+          "size": 5013,
+          "type": "image/svg+xml"
+        },
+        "shutdown.svg": {
+          "blob": "0dd2326fdc1016e7247bbbe97d3ef0fa",
+          "name": "shutdown.svg",
+          "size": 15944,
+          "type": "image/svg+xml"
+        },
+        "summary.svg": {
+          "blob": "dc56b5de491b3b84d24aaf4730e89cc8",
+          "name": "summary.svg",
+          "size": 2896,
+          "type": "image/svg+xml"
+        },
+        "triangle_arrow_icon.svg": {
+          "blob": "8838a4f0e6660aebbfad64ab2961d4b1",
+          "name": "triangle_arrow_icon.svg",
+          "size": 471,
+          "type": "image/svg+xml"
+        },
+        "view_eye_icon.svg": {
+          "blob": "0653ff4d6c3ed61360f5787b4e8c0fba",
+          "name": "view_eye_icon.svg",
+          "size": 503,
+          "type": "image/svg+xml"
+        },
+        "walkthrough_open_book_gray.svg": {
+          "blob": "a39490dc7e5ccc625bf62bb28489060d",
+          "name": "walkthrough_open_book_gray.svg",
+          "size": 3380,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Navigation",
+      "order": [
+        "arrow_down_angel_bracket.svg",
+        "bookmark_icon.svg",
+        "bookmark_icon_filled.svg",
+        "camera_icon.svg",
+        "circlearrowIcon.svg",
+        "crackingIcon.svg",
+        "decok.svg",
+        "download_icon.svg",
+        "expand_icon.svg",
+        "folder.svg",
+        "health_check_report.svg",
+        "hss.svg",
+        "monitoring.svg",
+        "overview.svg",
+        "settings.svg",
+        "shutdown.svg",
+        "summary.svg",
+        "triangle_arrow_icon.svg",
+        "view_eye_icon.svg",
+        "walkthrough_open_book_gray.svg"
+      ],
+      "tile": "s"
+    },
+    "Screens": {
+      "files": {
+        "admin_workflow_addbusinessuser.PNG": {
+          "blob": "c9af2c3d2484218935161727a405e2db",
+          "name": "admin_workflow_addbusinessuser.PNG",
+          "size": 27568,
+          "type": "image/png"
+        },
+        "admin_workflow_settings.PNG": {
+          "blob": "5a5634c528dc70d866cab576a0369285",
+          "name": "admin_workflow_settings.PNG",
+          "size": 44229,
+          "type": "image/png"
+        },
+        "alert_management_overduealerts.PNG": {
+          "blob": "687f1db62bcbfae8c8aaadfc3402efae",
+          "name": "alert_management_overduealerts.PNG",
+          "size": 44736,
+          "type": "image/png"
+        },
+        "alert_management_pendingalerts.PNG": {
+          "blob": "9e8d62b286447c71b86e8039073b636e",
+          "name": "alert_management_pendingalerts.PNG",
+          "size": 36423,
+          "type": "image/png"
+        },
+        "alert_management_trend.PNG": {
+          "blob": "2039cadfb4644ef9511aedd6b5cd6e29",
+          "name": "alert_management_trend.PNG",
+          "size": 59767,
+          "type": "image/png"
+        },
+        "alert_management_workflowmodal.PNG": {
+          "blob": "aa6598360c652d544e26f18007139839",
+          "name": "alert_management_workflowmodal.PNG",
+          "size": 103458,
+          "type": "image/png"
+        },
+        "calc_tree_diagram.PNG": {
+          "blob": "edea1d1072c61ac4a9050680422fd310",
+          "name": "calc_tree_diagram.PNG",
+          "size": 15136,
+          "type": "image/png"
+        },
+        "config_bm_dm_edit.PNG": {
+          "blob": "4eec56ea5aa912d2a439923870dd57ed",
+          "name": "config_bm_dm_edit.PNG",
+          "size": 54794,
+          "type": "image/png"
+        },
+        "config_bm_dm_info.PNG": {
+          "blob": "d8da922d0dd13b4a443514a577a70c27",
+          "name": "config_bm_dm_info.PNG",
+          "size": 52657,
+          "type": "image/png"
+        },
+        "config_casedetail_info.PNG": {
+          "blob": "76d1d60384b534bc9bf174bdf7792647",
+          "name": "config_casedetail_info.PNG",
+          "size": 23289,
+          "type": "image/png"
+        },
+        "config_casedetails_edit.PNG": {
+          "blob": "59ca9c5e452bd7edf7e894cc058538d4",
+          "name": "config_casedetails_edit.PNG",
+          "size": 25335,
+          "type": "image/png"
+        },
+        "config_clean_addrowbtn.PNG": {
+          "blob": "2c788ded5277364def4ced42230f138f",
+          "name": "config_clean_addrowbtn.PNG",
+          "size": 19036,
+          "type": "image/png"
+        },
+        "config_lbm_iteration_edit.PNG": {
+          "blob": "b1c8f503081bc1e9483156273c3bf1d3",
+          "name": "config_lbm_iteration_edit.PNG",
+          "size": 47208,
+          "type": "image/png"
+        },
+        "config_pipeline_edit.PNG": {
+          "blob": "6e074956fd939fb1997f2b1fb4897edc",
+          "name": "config_pipeline_edit.PNG",
+          "size": 18707,
+          "type": "image/png"
+        },
+        "config_suggestion_edit.PNG": {
+          "blob": "eff9752debcf2c28976958f1c38efea4",
+          "name": "config_suggestion_edit.PNG",
+          "size": 33258,
+          "type": "image/png"
+        },
+        "config_suggestion_info.PNG": {
+          "blob": "21a83affe2a5ae625da7cee55927cb16",
+          "name": "config_suggestion_info.PNG",
+          "size": 31037,
+          "type": "image/png"
+        },
+        "config_tags_edit.PNG": {
+          "blob": "4d133179ee0097bc188bbd136c4a952a",
+          "name": "config_tags_edit.PNG",
+          "size": 63727,
+          "type": "image/png"
+        },
+        "config_tags_info.PNG": {
+          "blob": "de2c92f25645ea6a182abb8ed164ce7a",
+          "name": "config_tags_info.PNG",
+          "size": 59752,
+          "type": "image/png"
+        },
+        "errorlogging_editbtn.PNG": {
+          "blob": "5114c570337073e075b68b21493601f8",
+          "name": "errorlogging_editbtn.PNG",
+          "size": 20032,
+          "type": "image/png"
+        },
+        "errorlogging_sessionid.PNG": {
+          "blob": "ee1e371aaa555100dbb8fdb66ec581fe",
+          "name": "errorlogging_sessionid.PNG",
+          "size": 129831,
+          "type": "image/png"
+        },
+        "healthcheck_piconn_aihub_jobagent_trend.PNG": {
+          "blob": "f232e62b04b47695d049b6dd9ba3fe7e",
+          "name": "healthcheck_piconn_aihub_jobagent_trend.PNG",
+          "size": 53912,
+          "type": "image/png"
+        },
+        "healthcheck_pistatustrend.PNG": {
+          "blob": "32ab8560e12a0e7e5a874dddc000f8dd",
+          "name": "healthcheck_pistatustrend.PNG",
+          "size": 30344,
+          "type": "image/png"
+        },
+        "inbox_workflow_autodeligate.PNG": {
+          "blob": "3966a4183f2b77e000e326e403182e43",
+          "name": "inbox_workflow_autodeligate.PNG",
+          "size": 33280,
+          "type": "image/png"
+        },
+        "inbox_workflowmodal.PNG": {
+          "blob": "61f4515e988f723dbc24bce5244ca0cf",
+          "name": "inbox_workflowmodal.PNG",
+          "size": 91372,
+          "type": "image/png"
+        },
+        "model_details.PNG": {
+          "blob": "365b3434503458c97599dc8de173f58f",
+          "name": "model_details.PNG",
+          "size": 46978,
+          "type": "image/png"
+        },
+        "muteAlertInfo.PNG": {
+          "blob": "cf4f83d09261953c5702b5cadee5d68e",
+          "name": "muteAlertInfo.PNG",
+          "size": 35599,
+          "type": "image/png"
+        },
+        "no_image_icon.png": {
+          "blob": "eef0f792564a51fe9149d909bd465915",
+          "name": "no_image_icon.png",
+          "size": 6580,
+          "type": "image/png"
+        },
+        "operations_piechart.PNG": {
+          "blob": "9ae5745616ce49c2097393a7c2b59980",
+          "name": "operations_piechart.PNG",
+          "size": 120317,
+          "type": "image/png"
+        },
+        "operations_viewdetail.PNG": {
+          "blob": "d1aa9adffb1a325ce63da790d7bf3510",
+          "name": "operations_viewdetail.PNG",
+          "size": 117303,
+          "type": "image/png"
+        },
+        "opportunity_trend.PNG": {
+          "blob": "731c4d317f88176ea2ace79cea1421a6",
+          "name": "opportunity_trend.PNG",
+          "size": 54238,
+          "type": "image/png"
+        },
+        "optimization_objective.PNG": {
+          "blob": "3bee5a416e8d2453d2a33ead5918e754",
+          "name": "optimization_objective.PNG",
+          "size": 30354,
+          "type": "image/png"
+        },
+        "overview_kpi_details.PNG": {
+          "blob": "ef91cdcc989815c6bc3401b6d175fb93",
+          "name": "overview_kpi_details.PNG",
+          "size": 21020,
+          "type": "image/png"
+        },
+        "overview_kpi_sorting.PNG": {
+          "blob": "7b9b058306429abef430052d6383cad6",
+          "name": "overview_kpi_sorting.PNG",
+          "size": 40125,
+          "type": "image/png"
+        },
+        "overview_kpi_trends.PNG": {
+          "blob": "c88727e026f0cb51f98522dbef8e5c07",
+          "name": "overview_kpi_trends.PNG",
+          "size": 43882,
+          "type": "image/png"
+        },
+        "overview_toptile_actions.PNG": {
+          "blob": "8edf9c76ccd9bebfbc54ad8cd1744f85",
+          "name": "overview_toptile_actions.PNG",
+          "size": 35326,
+          "type": "image/png"
+        },
+        "overview_toptile_trend.PNG": {
+          "blob": "3a3a11214a83c311443e28d97d91f06a",
+          "name": "overview_toptile_trend.PNG",
+          "size": 38496,
+          "type": "image/png"
+        },
+        "plant_monthlyUtilizationReport.PNG": {
+          "blob": "f4c6f4bd933067072f2025027d51bd0a",
+          "name": "plant_monthlyUtilizationReport.PNG",
+          "size": 35801,
+          "type": "image/png"
+        },
+        "plantlist.PNG": {
+          "blob": "e790140491c6000d9d8c9611b53e0e06",
+          "name": "plantlist.PNG",
+          "size": 46779,
+          "type": "image/png"
+        },
+        "solution_live_status.PNG": {
+          "blob": "f6ffa566542705380b1a8a6f982dc8c8",
+          "name": "solution_live_status.PNG",
+          "size": 14981,
+          "type": "image/png"
+        },
+        "systemlist.PNG": {
+          "blob": "72440d6963df08259fc97475bd5e023d",
+          "name": "systemlist.PNG",
+          "size": 53526,
+          "type": "image/png"
+        },
+        "userstatistics_affiliatewise.PNG": {
+          "blob": "3ffc3888ab86da7097f252ca2a98c326",
+          "name": "userstatistics_affiliatewise.PNG",
+          "size": 26736,
+          "type": "image/png"
+        },
+        "userstatistics_daywise.PNG": {
+          "blob": "573c76ec5bffb811e0e76395b353bf6e",
+          "name": "userstatistics_daywise.PNG",
+          "size": 26988,
+          "type": "image/png"
+        },
+        "vc_addspanwindow.PNG": {
+          "blob": "a99915863f147f0df5e79511815f53e3",
+          "name": "vc_addspanwindow.PNG",
+          "size": 16333,
+          "type": "image/png"
+        },
+        "vc_addtags.PNG": {
+          "blob": "cd8ce5d4cf1f0090b88bbab816230aba",
+          "name": "vc_addtags.PNG",
+          "size": 50178,
+          "type": "image/png"
+        },
+        "vc_businessimpact_e_trend.PNG": {
+          "blob": "e1c1802197034bb684dd2b0b9dc1a4ea",
+          "name": "vc_businessimpact_e_trend.PNG",
+          "size": 35503,
+          "type": "image/png"
+        },
+        "vc_businessimpact_p_trend.PNG": {
+          "blob": "b736fcc032df8a0cf23e47795ca130a7",
+          "name": "vc_businessimpact_p_trend.PNG",
+          "size": 35503,
+          "type": "image/png"
+        },
+        "vc_businessimpact_pe_trend.PNG": {
+          "blob": "104db3292fdb2bce08e67ed8933be51a",
+          "name": "vc_businessimpact_pe_trend.PNG",
+          "size": 40886,
+          "type": "image/png"
+        },
+        "vc_editspanmodal.PNG": {
+          "blob": "a4fe5715a71bcd02cebac6ead6b54751",
+          "name": "vc_editspanmodal.PNG",
+          "size": 29506,
+          "type": "image/png"
+        },
+        "vc_infomodal.PNG": {
+          "blob": "a96adc80bddef9f26ffd757b96218494",
+          "name": "vc_infomodal.PNG",
+          "size": 52613,
+          "type": "image/png"
+        },
+        "workflow_adduser.PNG": {
+          "blob": "d26ae49f36c440e201750442b9831dc2",
+          "name": "workflow_adduser.PNG",
+          "size": 17981,
+          "type": "image/png"
+        },
+        "workflow_midifyuser.PNG": {
+          "blob": "8b0d54bdbe26fcc8e3a1a935af3f2853",
+          "name": "workflow_midifyuser.PNG",
+          "size": 17698,
+          "type": "image/png"
+        }
+      },
+      "name": "Screens",
+      "order": [
+        "admin_workflow_addbusinessuser.PNG",
+        "admin_workflow_settings.PNG",
+        "alert_management_overduealerts.PNG",
+        "alert_management_pendingalerts.PNG",
+        "alert_management_trend.PNG",
+        "alert_management_workflowmodal.PNG",
+        "calc_tree_diagram.PNG",
+        "config_bm_dm_edit.PNG",
+        "config_bm_dm_info.PNG",
+        "config_casedetail_info.PNG",
+        "config_casedetails_edit.PNG",
+        "config_clean_addrowbtn.PNG",
+        "config_lbm_iteration_edit.PNG",
+        "config_pipeline_edit.PNG",
+        "config_suggestion_edit.PNG",
+        "config_suggestion_info.PNG",
+        "config_tags_edit.PNG",
+        "config_tags_info.PNG",
+        "errorlogging_editbtn.PNG",
+        "errorlogging_sessionid.PNG",
+        "healthcheck_piconn_aihub_jobagent_trend.PNG",
+        "healthcheck_pistatustrend.PNG",
+        "inbox_workflow_autodeligate.PNG",
+        "inbox_workflowmodal.PNG",
+        "model_details.PNG",
+        "muteAlertInfo.PNG",
+        "no_image_icon.png",
+        "operations_piechart.PNG",
+        "operations_viewdetail.PNG",
+        "opportunity_trend.PNG",
+        "optimization_objective.PNG",
+        "overview_kpi_details.PNG",
+        "overview_kpi_sorting.PNG",
+        "overview_kpi_trends.PNG",
+        "overview_toptile_actions.PNG",
+        "overview_toptile_trend.PNG",
+        "plant_monthlyUtilizationReport.PNG",
+        "plantlist.PNG",
+        "solution_live_status.PNG",
+        "systemlist.PNG",
+        "userstatistics_affiliatewise.PNG",
+        "userstatistics_daywise.PNG",
+        "vc_addspanwindow.PNG",
+        "vc_addtags.PNG",
+        "vc_businessimpact_e_trend.PNG",
+        "vc_businessimpact_p_trend.PNG",
+        "vc_businessimpact_pe_trend.PNG",
+        "vc_editspanmodal.PNG",
+        "vc_infomodal.PNG",
+        "workflow_adduser.PNG",
+        "workflow_midifyuser.PNG"
+      ],
+      "tile": "l"
+    },
+    "Status": {
+      "files": {
+        "active.svg": {
+          "blob": "0b03ec25ca170718ff7a061c6d34384b",
+          "name": "active.svg",
+          "size": 2207,
+          "type": "image/svg+xml"
+        },
+        "autoclosed.svg": {
+          "blob": "72e310e2bcf3a485d8dacbd389cc0a70",
+          "name": "autoclosed.svg",
+          "size": 8283,
+          "type": "image/svg+xml"
+        },
+        "closed.svg": {
+          "blob": "a5a772ea90929038b9069b81ec0008ec",
+          "name": "closed.svg",
+          "size": 1231,
+          "type": "image/svg+xml"
+        },
+        "energy.svg": {
+          "blob": "74febc960c367f7d6e84ce748795a30f",
+          "name": "energy.svg",
+          "size": 793,
+          "type": "image/svg+xml"
+        },
+        "environment.svg": {
+          "blob": "9f1eb082a511093490cf142b5a85bef3",
+          "name": "environment.svg",
+          "size": 1703,
+          "type": "image/svg+xml"
+        },
+        "generatedAlert.svg": {
+          "blob": "df2af49b02625a28805d5f591a076a0a",
+          "name": "generatedAlert.svg",
+          "size": 3120,
+          "type": "image/svg+xml"
+        },
+        "implemented.svg": {
+          "blob": "e44311a58c8a34714198d0addbcbf2e8",
+          "name": "implemented.svg",
+          "size": 892,
+          "type": "image/svg+xml"
+        },
+        "overdue.svg": {
+          "blob": "d52210965e6ead3ffd3f332d813477bb",
+          "name": "overdue.svg",
+          "size": 3826,
+          "type": "image/svg+xml"
+        },
+        "pending.svg": {
+          "blob": "d6d49ab5128a198a6194e7e2f3db1075",
+          "name": "pending.svg",
+          "size": 3991,
+          "type": "image/svg+xml"
+        },
+        "progressalert.svg": {
+          "blob": "16d4067d6dffcc367ac3f581447921f1",
+          "name": "progressalert.svg",
+          "size": 6720,
+          "type": "image/svg+xml"
+        },
+        "rejected.svg": {
+          "blob": "d76a97f5c6cb4001a0846add92e63ba8",
+          "name": "rejected.svg",
+          "size": 821,
+          "type": "image/svg+xml"
+        },
+        "view_arrow_icon.svg": {
+          "blob": "0d502ac2544204f0caf02811bfb4180d",
+          "name": "view_arrow_icon.svg",
+          "size": 1455,
+          "type": "image/svg+xml"
+        },
+        "view_arrow_icon_2color.svg": {
+          "blob": "1e08aa34c69a3de35213a72e58106874",
+          "name": "view_arrow_icon_2color.svg",
+          "size": 1387,
+          "type": "image/svg+xml"
+        },
+        "work_in_progress.svg": {
+          "blob": "eb52226c9cec10fd6a0dd8c04423c108",
+          "name": "work_in_progress.svg",
+          "size": 8595,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Status",
+      "order": [
+        "active.svg",
+        "autoclosed.svg",
+        "closed.svg",
+        "energy.svg",
+        "environment.svg",
+        "generatedAlert.svg",
+        "implemented.svg",
+        "overdue.svg",
+        "pending.svg",
+        "progressalert.svg",
+        "rejected.svg",
+        "view_arrow_icon.svg",
+        "view_arrow_icon_2color.svg",
+        "work_in_progress.svg"
+      ],
+      "tile": "s"
+    },
+    "Tables": {
+      "files": {
+        "Expand_image.svg": {
+          "blob": "f3a1f52e238b34d7cb284cabde38a3ea",
+          "name": "Expand_image.svg",
+          "size": 447,
+          "type": "image/svg+xml"
+        },
+        "arrow_left.svg": {
+          "blob": "77ff0b36c7e127f49b1c60a28dab92a6",
+          "name": "arrow_left.svg",
+          "size": 392,
+          "type": "image/svg+xml"
+        },
+        "arrow_right.svg": {
+          "blob": "0292c4bc50f3413fae66c8a24a353f45",
+          "name": "arrow_right.svg",
+          "size": 386,
+          "type": "image/svg+xml"
+        },
+        "chart_view_icon.svg": {
+          "blob": "32ba15ed99d024dfc082a170ad34a81f",
+          "name": "chart_view_icon.svg",
+          "size": 14303,
+          "type": "image/svg+xml"
+        },
+        "collpsed_image.svg": {
+          "blob": "7a83cbd42bd941e361083dafc0119bba",
+          "name": "collpsed_image.svg",
+          "size": 421,
+          "type": "image/svg+xml"
+        },
+        "downDirecrionIcon.svg": {
+          "blob": "3d8cefc0fecded607b43dc1ec52895cc",
+          "name": "downDirecrionIcon.svg",
+          "size": 5621,
+          "type": "image/svg+xml"
+        },
+        "table_minus_icon.svg": {
+          "blob": "8988839769b05390e38f10191b144982",
+          "name": "table_minus_icon.svg",
+          "size": 212,
+          "type": "image/svg+xml"
+        },
+        "table_plus_icon.svg": {
+          "blob": "17a91f7cdb95c1d24c2c0f531e529aaa",
+          "name": "table_plus_icon.svg",
+          "size": 366,
+          "type": "image/svg+xml"
+        },
+        "table_plus_icon_without_space.svg": {
+          "blob": "dd91e9556646935a1d31e6c5d6c9bb3c",
+          "name": "table_plus_icon_without_space.svg",
+          "size": 322,
+          "type": "image/svg+xml"
+        },
+        "table_view_icon.svg": {
+          "blob": "d7158cea3bdda2062197670b37aaeacf",
+          "name": "table_view_icon.svg",
+          "size": 3231,
+          "type": "image/svg+xml"
+        },
+        "view_transpose_icon.svg": {
+          "blob": "3f4750643106dd0446d7096f4f6ec96f",
+          "name": "view_transpose_icon.svg",
+          "size": 1408,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Tables",
+      "order": [
+        "arrow_left.svg",
+        "arrow_right.svg",
+        "chart_view_icon.svg",
+        "collpsed_image.svg",
+        "downDirecrionIcon.svg",
+        "Expand_image.svg",
+        "table_minus_icon.svg",
+        "table_plus_icon.svg",
+        "table_plus_icon_without_space.svg",
+        "table_view_icon.svg",
+        "view_transpose_icon.svg"
+      ],
+      "tile": "s"
+    }
+  },
+  "blobs": {
+    "fonts/sabictypefaceheadline_bd-webfont~20~282~29.woff2": {
+      "blob": "711f9d631874ddf261a517a094b45ebc",
+      "name": "fonts/sabictypefaceheadline_bd-webfont (2).woff2",
+      "sha256": "87adc80b48fbda4bd38a3d1e6484c4811f4c399ba5dac401e79d372343f8cd5a",
+      "size": 25932,
+      "type": "font/woff2"
+    },
+    "fonts/sabictypefaceheadline_lt-webfont.woff": {
+      "blob": "f9b42b13e16830e67162f86b79e0d6e3",
+      "name": "fonts/sabictypefaceheadline_lt-webfont.woff",
+      "sha256": "ab26567b9ae083127a9ba47ee9fbd0b01ee7f74bd62d162d4011fffe40a82807",
+      "size": 34780,
+      "type": "font/woff"
+    },
+    "fonts/sabictypefaceheadline_lt-webfont~20~282~29.woff2": {
+      "blob": "6591ef9926fd2cad13406213a0e64d8e",
+      "name": "fonts/sabictypefaceheadline_lt-webfont (2).woff2",
+      "sha256": "0bd513f3353ee76fcfc3874f9e95d57ad452ac165829c96e7f798e04a796e983",
+      "size": 27468,
+      "type": "font/woff2"
+    },
+    "fonts/sabictypefaceheadline_rg-webfont.woff": {
+      "blob": "4ce573a26a51f18f2337e1b04353b9f8",
+      "name": "fonts/sabictypefaceheadline_rg-webfont.woff",
+      "sha256": "28b7ce5205b8666cdd7d3dabfd8795a6cd4cbc45841b8a7e62305befc82961f9",
+      "size": 35288,
+      "type": "font/woff"
+    },
+    "fonts/sabictypefaceheadline_rg-webfont~20~282~29.woff2": {
+      "blob": "59b2e4c4fb9199d075459868efc7653c",
+      "name": "fonts/sabictypefaceheadline_rg-webfont (2).woff2",
+      "sha256": "13db1595ebebe6ecf5b9659ced220579d6d16f20cd226250b4da301b2638bf06",
+      "size": 27824,
+      "type": "font/woff2"
+    },
+    "fonts/sabictypefacetext_bd-webfont.woff": {
+      "blob": "ac16b1e7bad5446c417498bc274c671d",
+      "name": "fonts/sabictypefacetext_bd-webfont.woff",
+      "sha256": "5a25e65062f064ad0271a4ccbba0c8dd2c990a53d90c9bcfb440578e7e25ccfb",
+      "size": 29656,
+      "type": "font/woff"
+    },
+    "fonts/sabictypefacetext_bd-webfont~20~282~29.woff2": {
+      "blob": "b787ed16af9a5a952bf32280d10da02b",
+      "name": "fonts/sabictypefacetext_bd-webfont (2).woff2",
+      "sha256": "9502e40f9410db960047983809bec0789578c42c2dd2fe0577623561b5528e2f",
+      "size": 24156,
+      "type": "font/woff2"
+    },
+    "fonts/sabictypefacetext_lt-webfont.woff": {
+      "blob": "576e186c391bf1306285907a6244c771",
+      "name": "fonts/sabictypefacetext_lt-webfont.woff",
+      "sha256": "2bfca7339cec74a83e8dfef236493fc2556bc1157a68a75190a4acd038ea8875",
+      "size": 33712,
+      "type": "font/woff"
+    },
+    "fonts/sabictypefacetext_lt-webfont~20~282~29.woff2": {
+      "blob": "0ad6a3d6fcd685503054e934f6b426e3",
+      "name": "fonts/sabictypefacetext_lt-webfont (2).woff2",
+      "sha256": "d239d2f7a05883eb3ae4a322ea9d980b743f7dfcb0b47a788ef925cbe837314d",
+      "size": 26456,
+      "type": "font/woff2"
+    },
+    "fonts/sabictypefacetext_rg-webfont.woff": {
+      "blob": "f9840ad47a5ea9cf51c34208f7c93b30",
+      "name": "fonts/sabictypefacetext_rg-webfont.woff",
+      "sha256": "c364fb5dc67594b5b46a72dd41f616aa93c62d8471391de23c47ab3e62683a7c",
+      "size": 34052,
+      "type": "font/woff"
+    },
+    "fonts/sabictypefacetext_rg-webfont~20~282~29.woff2": {
+      "blob": "7137c1ef5fbef1ee1f84a386646c8ee9",
+      "name": "fonts/sabictypefacetext_rg-webfont (2).woff2",
+      "sha256": "fe777b997b0fb6e79109877c93722aaf48ea3ab3dfbca53f46e82d2ef905f333",
+      "size": 26668,
+      "type": "font/woff2"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-06T13:39:12Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos",
+    "KPIs",
+    "IconsV2",
+    "Navigation",
+    "Header",
+    "Common",
+    "Status",
+    "Tables",
+    "FileTypes",
+    "Affiliates",
+    "Loaders",
+    "Maps",
+    "Screens",
+    "IconFont"
+  ],
+  "lastChange": {
+    "at": "2026-10-06T13:39:12Z",
+    "by": "arshnoor khan",
+    "note": "Built from design.md, SABIC webfonts, icon sets and product screenshots.",
+    "via": "Claude (Cowork)"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "PE",
+  "sections": {},
+  "title": "PE Dashboard"
+}

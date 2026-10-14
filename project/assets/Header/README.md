@@ -1,0 +1,1 @@
+Header utility icons (search, notifications, profile, edit, calendar, logout, back, ECM, Hangfire, super-admin), mostly single-ink primary_gray_2 (#939598). Show at 2.6 × 2.4vmin on primary_blue_bg chips; recolour to brand blue on hover with .blueFilter.

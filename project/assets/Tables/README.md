@@ -1,0 +1,1 @@
+Table and grid controls: plus / minus row toggles, table vs chart view, transpose, expand / collapse, left / right arrows and the tree-diagram direction icon. Mostly primary_gray (#4D4D4D) ink, some with primary_dark_blue accents; 1.4–2vmin.

@@ -1,0 +1,1 @@
+Alert lifecycle icons — active, pending, work in progress, progress alert, overdue, implemented, closed, auto-closed, rejected, generated — plus energy / environment categories and the view-arrow action. Multi-ink; always pair with the status word.

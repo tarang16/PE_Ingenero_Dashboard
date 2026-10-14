@@ -1,0 +1,1 @@
+Region maps for the affiliate / plant overview: america_region_map.svg, eu_region_map.svg, mea_region_map.png and world_map_svg.png (a 2x PNG render; the source SVG embedded a raster). Plot plant markers over them; keep the map neutral.
